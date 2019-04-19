@@ -1,0 +1,63 @@
+// MIXINS
+
+// basic flexbox settings
+@mixin flex-box {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 85%;
+  flex-direction: column;
+}
+
+@mixin media-q($break) {
+	@if $break == "small" {
+		@media (min-width: breakpoint(small)) and (max-width: breakpoint(medium)) {
+			@content;
+		}
+	}
+	@else if $break == "medium" {
+		@media (min-width: breakpoint(medium) + 1) {
+			@content;
+		}
+	}
+	@else if $break == "large" {
+		@media (min-width: breakpoint(large)) {
+			@content;
+		}
+	}
+	@else {
+		@error "Oh No! No value detected for `#{$break}`.";
+	}
+}
+
+// Generate modifier color classes
+
+@mixin bg-colors($map) {
+	@each $theme, $color in $map {
+		&--#{$theme} {
+			background-color: $color;
+		}
+	}
+}
+
+// Adjacent Sibling margins
+ @mixin doubly($margin: 1em) {
+	 & + & {
+		 //margin-left: $margin;
+		 @content;
+	 }
+ }
+
+ // Grid Columns
+
+ @mixin g-columns {
+   @for $i from 1 through $grid-column-count {
+     $context: g-context($container-max-width, $grid-column-count ,$grid-gutter) !global;
+     $target: ($grid-column-width * $i) + ($grid-gutter * ($i - 1));
+
+     // Generate column modifier classes
+     &--#{$i} {
+       width: 100% / $grid-column-count * $i;
+     }
+   }
+ }

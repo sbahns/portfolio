@@ -1,0 +1,124 @@
+//Image:
+
+img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+header{
+	.user-notifications {
+		display: flex;
+		flex-direction: column;
+	  svg.bell {
+			width: 20px;
+			margin: 0 auto;
+			max-height: 20px;
+			fill: white;
+			path {
+				transition-property: opacity;
+				transition-duration: 1s;
+			 &.default {
+					opacity: 1;
+				}
+			 &.fill {
+					opacity: 0;
+				}
+			}
+			&:hover, &.fill-bell {
+				cursor: pointer;
+				path {
+				 &.default {
+						opacity: 0;
+					}
+				 &.fill {
+						opacity: 1;
+					}
+				}
+			}
+		}
+	}
+	.avatar {
+		img {
+			margin: 0 10px 0 0;
+			border-radius: 50%;
+			max-width: 30px;
+		}
+	}
+}
+nav{
+	img[src$=".svg"] {
+		max-width: 32px;
+		margin: auto;
+
+		@media (min-width: 768px) {
+			margin: auto;
+		}
+	}
+}
+
+.social{
+	.submodule {
+		.social-icon {
+				background: $lavender;
+				width: 70px;
+		    	height: 70px;
+		    	border-radius: 50%;
+		    	margin: 0 15px 0 0;
+		    	position: relative;
+		    	display: inline-block;
+			.icon{
+				position: absolute;
+				&.facebook {
+					width: 20px;
+					height: 32px;
+					top: 1.15em;
+					left: 1.6em;
+				}
+				&.twitter {
+					width: 33px;
+					height: 37px;
+					top: 1.25em;
+					left: 1.25em;
+				}
+				&.google {
+					width: 30px;
+					height: 30px;
+					top: 1.25em;
+					left: 1.25em;
+				}
+				path{
+					fill: $white;
+				}
+			}
+		}
+	}
+}
+
+.new-members {
+	.member-list {
+		.member {
+		 	.avatar {
+				img {
+					margin: 0 auto;
+					width: 40px;
+					max-width: 40px;
+					border-radius: 50%;
+				}
+			}
+		}
+	}
+}
+.recent-activity {
+	.activity-list {
+		.member {
+		 	.avatar {
+				img {
+					margin: 0 auto;
+					width: 40px;
+					max-width: 40px;
+					border-radius: 50%;
+				}
+			}
+		}
+	}
+}

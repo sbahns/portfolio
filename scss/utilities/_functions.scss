@@ -1,0 +1,29 @@
+/*--------------------------------------------------
+:: Functions
+-------------------------------------------------- */
+@function em($target, $context: $base__font-size) {
+	@return ($target / $context) * 1em;
+}
+
+@function g-context($container-max-width, $grid-column-count, $grid-gutter) {
+	$g-context:($container-max-width * $grid-column-count *  1) + ($grid-gutter * ($grid-column-count - 1));
+	@return $g-context;
+}
+
+@function breakpoint($key) {
+  @if map-has-key($breakpoints, $key) {
+    @return map-get($breakpoints, $key);
+  }
+
+  @warn "Unknown `#{$key}` in breakpoints.";
+  @return null;
+}
+
+@function color($key) {
+  @if map-has-key($colors, $key) {
+    @return map-get($colors, $key);
+  }
+
+  @warn "Unknown `#{$key}` in $colors.";
+  @return null;
+}
