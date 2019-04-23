@@ -35,7 +35,7 @@
 		color: $charcoal;
 		position: relative;
 		background: $off-white;
-		border: 2px solid $grey;
+		border: 2px solid $gray;
 		border-radius: 3px;
 
 		&:after, &:before {
@@ -61,7 +61,7 @@
 		}
 		&:before {
 			border-color: rgba(204, 204, 204, 0);
-			border-bottom-color: $grey;
+			border-bottom-color: $gray;
 			border-width: 10px;
 			margin-left: -33px;
 		}

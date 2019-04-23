@@ -8,8 +8,8 @@
 		<link rel="stylesheet" href="css/styles.css">
 	</head>
 
-	<body class="container">
-		<header>
+	<body>
+		<header id="home">
 			<div class="row">
 				<div class="col-4 logo">
 					<svg id="srbweb_logo" data-name="srbweb_logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 261.67 261.67">
@@ -27,24 +27,35 @@
 					<nav class="">
 						<ul class="menu">
 							<li class="menu-item">
-								Home
+								<a href="#home">Home</a>
 							</li>
 							<li class="menu-item">
-								About
+								<a href="#about">About</a>
 							</li>
 							<li class="menu-item">
-								Portfolio
+								<a href="#portfolio">Portfolio</a>
 							</li>
 							<li class="menu-item">
-								Contact
+								<a href="#contract">Contact</a>
 							</li>
 						</ul>
 					</nav>
 				</div>
 			</div>
 		</header>
-
-		<main>
+		<section id="about">
+			<div class="container">
+				<div class="row">
+					<div class="col-9">
+						<div id="about-content" class="animated fadeIn" style="display: block;">
+							<h1 id="headline">Hello my name is Sarah and I am a Front End Developer/UX Designer in Morgantown, West Virginia.</p>
+						</div><!-- end of #about-content -->
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="portfolio" class="container">
+			<h2>Portfolio</h2>
 			<div class="grid"></div>
 			 <div class="modal" style="display: none">
 				<div class="overlay"></div>
@@ -54,14 +65,33 @@
 			        </button>
 			    </div>
 			</div>
-		</main>
-
-		<footer>
+		</section>
+		<section id="contact" class="container">
+			<div class="col-1">
+				<div id="about-content" class="animated fadeIn" style="display: block;">
+					<img id="profile-image" src="https://sarahbarnesweb.com/wp-content/uploads/2019/04/me-round.png">
+				</div>
+			</div>
+			<div class="col-11">
+				<div id="socialprofiles">
+					<a href="https://www.linkedin.com/in/sarahbarnes/" target="_blank" data-external="true" data-unsp-sanitized="clean"><i class="fa fa-linkedin fa-2x"></i></a>
+					<a href="https://github.com/sbahns" target="_blank" data-external="true" data-unsp-sanitized="clean"><i class="fa fa-github fa-2x"></i></a>
+					<a href="https://dribbble.com/srbarnes" target="_blank" data-external="true" data-unsp-sanitized="clean"><i class="fa fa-dribbble fa-2x"></i></a>
+					<a href="https://www.facebook.com/sarahbarnesweb/" target="_blank" data-external="true" data-unsp-sanitized="clean"><i class="fa fa-facebook-official fa-2x"></i></a>
+					<a href="https://twitter.com/srbarnes" target="_blank" data-external="true" data-unsp-sanitized="clean"><i class="fa fa-twitter fa-2x"></i></a>
+					<a href="tel:+13045549075?call" target="_blank" data-external="true" data-unsp-sanitized="clean"><i class="fa fa-phone fa-2x"></i></a>
+					<a href="mailto:sarah@sarahbarnesweb.com" target="_blank" data-unsp-sanitized="clean"><i class="fa fa-envelope fa-2x"></i></a>
+				</div>
+			</div>
+		</section>
+		<footer id="footer" class="container">
 
 		</footer>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 		<script src="js/app.js"></script>
+
+
 
 	</body>
 

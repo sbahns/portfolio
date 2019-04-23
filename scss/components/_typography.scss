@@ -1,20 +1,38 @@
 //Typography:
-.container {
+body {
 	font-family: $font-body;
+}
+
+.container {
 	color: color(primary);
 	font-size: $base__font-size;
 	line-height: ($base__line/$base__font-size);
 	font-weight: 300;
 }
 
+h1, h2, h3, nav {
+	font-family: $heading-font-family;
+}
+
 h1 {
 	color: color(secondary);
   	margin: 0;
-  	font-size: em(24px);
-	font-weight: 300;
+  	font-size: em(28px);
+}
+
+#about {
+	h1 {
+		font-size: em(48px);
+	}
 }
 
 h2 {
+	color: color(secondary);
+	margin: 0;
+	font-size: em(24px);
+}
+
+h3 {
 	color: color(secondary);
 	margin: 0;
 	font-size: em(20px);
@@ -24,18 +42,9 @@ p {
 	margin: 0;
 }
 
-.user-info {
+.project-info {
 	word-break: break-word;
 	.name {
-		text-transform: capitalize;
-	}
-	.email {
-
-	}
-	.city {
-		text-transform: capitalize;
-	}
-	.address {
-		text-transform: capitalize;
+		text-transform: uppercase;
 	}
 }

@@ -60,26 +60,23 @@ function projectModal(array, index) {
 		</button>
 		<div class="card" data-id="${index}">
 			<div class="user">
-				<div class="avatar">
-					<img src='${array[index].picture.medium}' />
+				<div class="thumbnail">
+					<img src='${array[index].picture.large}' alt='Screenshot of ${array[index].name.title}' />
 				</div>
-				<div class='user-info'>
+				<div class='project-info'>
 					<div class="name">
-						<h2>${array[index].name.title}</h2>
+						<h3>${array[index].name.title}</h3>
 					</div>
 					<div class="url">
 						<p><a href="${array[index].location.url}" target="_blank">${array[index].location.url}</a></p>
 					</div>
 					<div class="date">
-						<p>Client Since: ${array[index].registered.year}</p>
+						<p><strong>Client Since:</strong> ${array[index].registered.year}</p>
 					</div>
-					<div class="email">
-						<p>${array[index].email}</p>
-					</div>
-					<div class="reveal-on-modal">
-						<div class="phone">
-							<p>${array[index].cell}</p>
-						</div>
+					<div class="description">
+						<p><strong>Project Description:</strong> ${array[index].info.description}</p>
+						<p><strong>What I Did:</strong> ${array[index].info.role}</p>
+						<p><strong>Keywords:</strong> ${array[index].info.keywords}</p>
 					</div>
 				</div>
 			</div>
@@ -94,13 +91,13 @@ function getProjects(data) {
 		cell.className ="cell";
 		const html = `
 				<div class="card" data-id="${index}">
-					<div class="user">
-						<div class="avatar">
-							<img src='${project.picture.medium}' />
-						</div>
-						<div class='user-info'>
+					<div class="thumbnail">
+						<img src='${project.picture.medium}' alt='Screenshot of ${project.name.title}' />
+					</div>
+					<div class="project">
+						<div class='project-info'>
 							<div class="name">
-							 <h2>${project.name.title}</h2>
+							 <h3>${project.name.title}</h3>
 							</div>
 							<div class="url">
 								<p>${project.location.url}</p>

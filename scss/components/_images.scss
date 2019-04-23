@@ -6,18 +6,34 @@ img {
 	display: block;
 }
 
-.logo svg {
-	width: 100%;
-	max-width: 70px;
+header {
+	.logo svg {
+		width: 100%;
+		max-width: 70px;
+
+		.cls-1,.cls-3{fill:$white;}
+		.cls-1{stroke:$dark-gray;stroke-width:2.44px;}
+		.cls-2{fill:$charcoal;}
+		.cls-4{fill:none;stroke:$white;stroke-linecap:round;stroke-width:2.65px;}
+
+		&:hover {
+			transition: transform 1s ease-in-out;
+			transform: rotate(360deg);
+			cursor: pointer;
+
+			.cls-1,.cls-3{fill:$white;}
+			.cls-1{stroke:$blue;stroke-width:2.44px;}
+			.cls-2{fill:$blue;}
+			.cls-4{fill:none;stroke:$white;stroke-linecap:round;stroke-width:2.65px;}
+		}
+	}
 }
 
 .cell {
 	.card {
-		.avatar {
+		.thumbnail {
 			img {
-				 border-radius: 50%;
 				 cursor: pointer;
-				 max-width: 128px;
 			 }
 		}
 	}
@@ -25,18 +41,10 @@ img {
 
 .modal_content {
 	.card {
-		.avatar {
+		.thumbnail {
 			img {
-				 border-radius: 50%;
 				 cursor: pointer;
-				 width: 170px;
-				 margin: 20px auto;
 			 }
 		}
 	}
 }
-
-.cls-1,.cls-3{fill:#fff;}
-.cls-1{stroke:#57565a;stroke-width:2.44px;}
-.cls-2{fill:#333;}
-.cls-4{fill:none;stroke:#fff;stroke-linecap:round;stroke-width:2.65px;}

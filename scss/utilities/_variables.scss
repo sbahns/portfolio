@@ -23,9 +23,14 @@ $purple: #4d4c72;
 $pink: #ec9fa3;
 $red: #e4757a;
 $green: #85db80;
+$darkseagreen: #8ea48b;
 $orange: #fd7856;
 $blue: #3fabca;
-$grey: #cccccc;
+$teal: #086e94;
+$lightslategray: #7e9990;
+$light-gray: #efe0e0;
+$gray: #cccccc;
+$dark-gray: #57565a;
 $charcoal: #333333;
 
 // Colors
@@ -45,6 +50,7 @@ $colors: (
 }
 $font-url-google: 'https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i';
 $font-body: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+$heading-font-family: $font-body;
 
 // Text
 

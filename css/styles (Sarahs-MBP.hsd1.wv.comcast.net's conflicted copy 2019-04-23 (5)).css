@@ -1,0 +1,82 @@
+/*
+Error: Invalid CSS after "...dy: font-family": expected selector or at-rule, was ": 'Arbutus Slab..."
+        on line 49 of scss/utilities/_variables.scss
+        from line 4 of scss/utilities/_index.scss
+        from line 4 of scss/styles.scss
+
+44: // Fonts
+45: @if variable-exists(font-url-google) {
+46: 	@import url($font-url-google);
+47: }
+48: $font-url-google: 'https://fonts.googleapis.com/css?family=Arbutus+Slab|Karma:400,700';
+49: $font-body: font-family: 'Arbutus Slab', serif;
+50: $heading-font-family: font-family: 'Karma', serif;
+51: 
+52: // Text
+53: 
+54: $base__font-size : 16px;
+
+Backtrace:
+scss/utilities/_variables.scss:49
+scss/utilities/_index.scss:4
+scss/styles.scss:4
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/scss/parser.rb:1207:in `expected'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/scss/parser.rb:1137:in `expected'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/scss/parser.rb:42:in `parse'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/engine.rb:409:in `_to_tree'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/engine.rb:315:in `to_tree'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:327:in `block in visit_import'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/stack.rb:88:in `block in with_import'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/stack.rb:88:in `with_import'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:329:in `block (2 levels) in visit_import'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:329:in `map'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:329:in `block in visit_import'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/stack.rb:88:in `block in with_import'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/stack.rb:88:in `with_import'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/engine.rb:384:in `_render_with_sourcemap'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/engine.rb:301:in `render_with_sourcemap'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:331:in `block in watch'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
+/Users/sarah/.rvm/gems/ruby-2.4.2/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...dy: font-family\": expected selector or at-rule, was \": 'Arbutus Slab...\"\A         on line 49 of scss/utilities/_variables.scss\A         from line 4 of scss/utilities/_index.scss\A         from line 4 of scss/styles.scss\A \A 44: // Fonts\A 45: @if variable-exists(font-url-google) {\A 46: 	@import url($font-url-google);\A 47: }\A 48: $font-url-google: 'https://fonts.googleapis.com/css?family=Arbutus+Slab|Karma:400,700';\A 49: $font-body: font-family: 'Arbutus Slab', serif;\A 50: $heading-font-family: font-family: 'Karma', serif;\A 51: \A 52: // Text\A 53: \A 54: $base__font-size : 16px;"; }

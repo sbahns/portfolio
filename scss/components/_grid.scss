@@ -20,8 +20,7 @@ header {
 	grid-template-columns: 1fr;
 }
 
-main {
-	grid-area: main;
+section {
 	.grid {
 		display: block;
 		.cell {
@@ -33,7 +32,6 @@ main {
 
 
 .container {
-	padding-top: 45px;
 	@include flex-box;
 
 	// Make nested grid 100%
@@ -62,8 +60,9 @@ main {
   }
 }
 
-[class^="col-"] {
+[class^="col"] {
   @include media-q(small)  {
+	width: 100%;
     margin-top: em(12px);
     margin-bottom: em(12px);
   }
@@ -73,25 +72,22 @@ main {
     min-height: 1px;
     padding-left: 10px;
     padding-right: 10px;
-		text-align: center;
+	text-align: center;
     &:last-of-type {
       float: right;
     }
-		.card, .form {
-			text-align: left;
-		}
   }
 }
 
 .row {
 	display: flex;
-  flex-wrap: wrap;
+  	flex-wrap: wrap;
 }
 
 
 
 @media (min-width: 768px) {
-	main {
+	section {
 		.grid {
 			display: flex;
 			flex-direction: row;
@@ -100,7 +96,7 @@ main {
 			.cell {
 				display: flex;
 				flex-direction: row;
-				width: 50%;
+				width: 48%;
 			}
 		}
 	}
@@ -109,9 +105,9 @@ main {
 @media (min-width: 1024px) {
 	.container {
 		max-width: 1440px;
-		margin: 0 5%;
+		margin: 0 auto;
 	}
-	main {
+	section {
 		.grid {
 			.cell {
 				display: flex;

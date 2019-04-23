@@ -441,13 +441,16 @@ header {
   display: grid;
   grid-template-columns: 1fr; }
 
-section .grid {
-  display: block; }
-  section .grid .cell {
-    display: flex;
-    flex-direction: column; }
+main {
+  grid-area: main; }
+  main .grid {
+    display: block; }
+    main .grid .cell {
+      display: flex;
+      flex-direction: column; }
 
 .container {
+  padding-top: 45px;
   display: flex;
   justify-content: space-between;
   margin: auto;
@@ -469,45 +472,46 @@ section .grid {
   padding-left: 15px;
   padding-right: 15px; }
 
-@media (min-width: 768px) {
-  .col-1 {
-    width: 8.33333%; }
-  .col-2 {
-    width: 16.66667%; }
-  .col-3 {
-    width: 25%; }
-  .col-4 {
-    width: 33.33333%; }
-  .col-5 {
-    width: 41.66667%; }
-  .col-6 {
-    width: 50%; }
-  .col-7 {
-    width: 58.33333%; }
-  .col-8 {
-    width: 66.66667%; }
-  .col-9 {
-    width: 75%; }
-  .col-10 {
-    width: 83.33333%; }
-  .col-11 {
-    width: 91.66667%; }
-  .col-12 {
-    width: 100%; } }
+.col {
+  width: 100%; }
+  @media (min-width: 768px) {
+    .col--1 {
+      width: 8.33333%; }
+    .col--2 {
+      width: 16.66667%; }
+    .col--3 {
+      width: 25%; }
+    .col--4 {
+      width: 33.33333%; }
+    .col--5 {
+      width: 41.66667%; }
+    .col--6 {
+      width: 50%; }
+    .col--7 {
+      width: 58.33333%; }
+    .col--8 {
+      width: 66.66667%; }
+    .col--9 {
+      width: 75%; }
+    .col--10 {
+      width: 83.33333%; }
+    .col--11 {
+      width: 91.66667%; }
+    .col--12 {
+      width: 100%; } }
 
 @media (min-width: 1px) and (max-width: 767px) {
-  [class^="col"] {
-    width: 100%;
+  [class^="col-"] {
     margin-top: 0.75em;
     margin-bottom: 0.75em; } }
 @media (min-width: 768px) {
-  [class^="col"] {
+  [class^="col-"] {
     float: left;
     min-height: 1px;
     padding-left: 10px;
     padding-right: 10px;
     text-align: center; }
-    [class^="col"]:last-of-type {
+    [class^="col-"]:last-of-type {
       float: right; } }
 
 .row {
@@ -515,53 +519,41 @@ section .grid {
   flex-wrap: wrap; }
 
 @media (min-width: 768px) {
-  section .grid {
+  main .grid {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap; }
-    section .grid .cell {
+    main .grid .cell {
       display: flex;
       flex-direction: row;
-      width: 48%; } }
+      width: 50%; } }
 @media (min-width: 1024px) {
   .container {
     max-width: 1440px;
     margin: 0 auto; }
 
-  section .grid .cell {
+  main .grid .cell {
     display: flex;
     flex-direction: row;
     width: 32%; } }
 /*--------------------------------------------------
 :: Typography styles
 -------------------------------------------------- */
-body {
-  font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif; }
-
 .container {
+  font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
   color: #888e92;
   font-size: 16px;
   line-height: 1.75;
   font-weight: 300; }
 
-h1, h2, h3, nav {
-  font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif; }
-
 h1 {
   color: #404a51;
   margin: 0;
-  font-size: 1.75em; }
-
-#about h1 {
-  font-size: 3em; }
+  font-size: 1.5em;
+  font-weight: 300; }
 
 h2 {
-  color: #404a51;
-  margin: 0;
-  font-size: 1.5em; }
-
-h3 {
   color: #404a51;
   margin: 0;
   font-size: 1.25em; }
@@ -572,41 +564,33 @@ p {
 .project-info {
   word-break: break-word; }
   .project-info .name {
-    text-transform: uppercase; }
+    text-transform: capitalize; }
+  .project-info .city {
+    text-transform: capitalize; }
+  .project-info .address {
+    text-transform: capitalize; }
 
 /*--------------------------------------------------
 :: Navigation styles
 -------------------------------------------------- */
-nav {
-  align-items: center;
-  justify-content: center; }
-  nav ul {
-    margin: 0;
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-content: center;
-    color: #ffffff; }
-    nav ul li {
-      float: left;
-      padding: 10px; }
-      nav ul li a {
-        color: #ffffff; }
-      nav ul li.active, nav ul li:hover {
-        cursor: pointer; }
+nav ul {
+  margin: 0;
+  margin-top: 11px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center; }
+  nav ul li {
+    float: left;
+    padding: 10px; }
+    nav ul li.active, nav ul li:hover {
+      cursor: pointer;
+      padding-bottom: 3.5%; }
 
-#socialprofiles a {
-  color: #333333; }
-
-a:target {
-  position: relative;
-  height: 150px;
-  margin-top: -150px;
-  opacity: 0;
-  display: block !important;
-  z-index: -1; }
-
+@media (min-width: 768px) {
+  nav ul li.active, nav ul li:hover {
+    padding-bottom: 1.5%; } }
 /*--------------------------------------------------
 :: Image styles
 -------------------------------------------------- */
@@ -615,43 +599,31 @@ img {
   height: auto;
   display: block; }
 
-header .logo svg {
+.logo svg {
   width: 100%;
   max-width: 70px; }
-  header .logo svg .cls-1, header .logo svg .cls-3 {
-    fill: #ffffff; }
-  header .logo svg .cls-1 {
-    stroke: #57565a;
-    stroke-width: 2.44px; }
-  header .logo svg .cls-2 {
-    fill: #333333; }
-  header .logo svg .cls-4 {
-    fill: none;
-    stroke: #ffffff;
-    stroke-linecap: round;
-    stroke-width: 2.65px; }
-  header .logo svg:hover {
-    transition: transform 1s ease-in-out;
-    transform: rotate(360deg);
-    cursor: pointer; }
-    header .logo svg:hover .cls-1, header .logo svg:hover .cls-3 {
-      fill: #ffffff; }
-    header .logo svg:hover .cls-1 {
-      stroke: #3fabca;
-      stroke-width: 2.44px; }
-    header .logo svg:hover .cls-2 {
-      fill: #3fabca; }
-    header .logo svg:hover .cls-4 {
-      fill: none;
-      stroke: #ffffff;
-      stroke-linecap: round;
-      stroke-width: 2.65px; }
 
 .cell .card .thumbnail img {
   cursor: pointer; }
 
 .modal_content .card .thumbnail img {
   cursor: pointer; }
+
+.cls-1, .cls-3 {
+  fill: #ffffff; }
+
+.cls-1 {
+  stroke: #57565a;
+  stroke-width: 2.44px; }
+
+.cls-2 {
+  fill: #333333; }
+
+.cls-4 {
+  fill: none;
+  stroke: #ffffff;
+  stroke-linecap: round;
+  stroke-width: 2.65px; }
 
 /*--------------------------------------------------
 :: Button styles
@@ -722,44 +694,23 @@ input[type=submit] {
 /*--------------------------------------------------
 :: Section styles
 -------------------------------------------------- */
-header {
-  position: fixed;
-  width: 100%;
-  background-color: #3fabca; }
-  header .logo {
-    text-align: center; }
-    @media (min-width: 768px) {
-      header .logo {
-        text-align: left; } }
-
-section {
-  display: flex;
-  padding-top: 150px;
-  padding-bottom: 150px; }
-  section#about {
-    align-items: center;
-    justify-content: center;
-    background: url("../images/retro-gardener-full-screen.jpg") no-repeat right top;
-    background-size: cover;
-    height: 100vh;
-    min-height: 100vh; }
-  section#portfolio .grid .cell .card {
-    text-align: center;
-    background-color: #ffffff;
-    border: solid 2px #efe0e0;
-    padding: 20px;
-    margin-bottom: 24px;
-    width: 100%; }
-    section#portfolio .grid .cell .card .project {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: center; }
-    section#portfolio .grid .cell .card:hover {
-      border: solid 2px #3fabca;
-      box-shadow: 1px 1px 5px #3fabca;
-      transition: all 1s;
-      cursor: pointer; }
+main .grid .cell .card {
+  text-align: center;
+  background-color: #ffffff;
+  border: solid 2px #efefef;
+  padding: 20px;
+  margin-bottom: 24px;
+  width: 100%; }
+  main .grid .cell .card .project {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; }
+  main .grid .cell .card:hover {
+    border: solid 2px #3fabca;
+    box-shadow: 1px 1px 5px #3fabca;
+    transition: all 1s;
+    cursor: pointer; }
 
 .modal {
   position: fixed;
@@ -798,6 +749,12 @@ section {
         flex-direction: column;
         justify-content: space-between;
         align-items: center; }
+        .modal .modal_content .card .project .reveal-on-modal {
+          border-top: 1px solid #cccccc;
+          margin-top: 30px;
+          padding-top: 25px; }
+          .modal .modal_content .card .project .reveal-on-modal .phone, .modal .modal_content .card .project .reveal-on-modal .address, .modal .modal_content .card .project .reveal-on-modal .birthdate {
+            padding: .35em 0; }
   .modal .close_modal {
     color: #404a51;
     position: absolute;
@@ -813,13 +770,16 @@ section {
     opacity: 0.9; }
 
 @media (min-width: 768px) {
-  section #portfolio .grid .cell .card .project {
+  main .grid .cell .card .project {
     display: flex;
     flex-direction: row;
     justify-content: flex-start; }
-    section #portfolio .grid .cell .card .project .project-info {
-      margin-top: 20px;
-      text-align: left; }
+    main .grid .cell .card .project .thumbnail {
+      width: 40%; }
+    main .grid .cell .card .project .project-info {
+      text-align: left;
+      width: 60%;
+      margin-left: 20px; }
 
   .modal {
     position: fixed;
@@ -858,6 +818,12 @@ section {
           flex-direction: column;
           justify-content: space-between;
           align-items: center; }
+          .modal .modal_content .card .project .reveal-on-modal {
+            border-top: 1px solid #cccccc;
+            margin-top: 30px;
+            padding-top: 25px; }
+            .modal .modal_content .card .project .reveal-on-modal .phone, .modal .modal_content .card .project .reveal-on-modal .address, .modal .modal_content .card .project .reveal-on-modal .birthdate {
+              padding: .35em 0; }
     .modal .close_modal {
       color: #404a51;
       position: absolute;
@@ -912,6 +878,12 @@ section {
           flex-direction: column;
           justify-content: space-between;
           align-items: center; }
+          .modal .modal_content .card .project .reveal-on-modal {
+            border-top: 1px solid #cccccc;
+            margin-top: 30px;
+            padding-top: 25px; }
+            .modal .modal_content .card .project .reveal-on-modal .phone, .modal .modal_content .card .project .reveal-on-modal .address, .modal .modal_content .card .project .reveal-on-modal .birthdate {
+              padding: .35em 0; }
     .modal .close_modal {
       color: #404a51;
       position: absolute;

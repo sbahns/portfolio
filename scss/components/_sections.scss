@@ -1,30 +1,51 @@
 header {
-
+	position: fixed;
+    width: 100%;
+	background-color: $blue;
+	.logo {
+		text-align: center;
+		@include media-q(medium) {
+			text-align: left;
+		}
+	}
 }
-main {
-	.grid {
-		.cell{
-			.card {
-			  text-align: center;
-			  border-radius: 6px;
-			  background-color: $white;
-			  border: solid 2px $grey;
-			  padding: 20px;
-			  margin-bottom: 24px;
-				width: 100%;
-				.user {
-					display: flex;
-					flex-direction: column;
-					justify-content: space-between;
-					align-items: center;
-					.avatar {
+section {
+	display: flex;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	&#about {
+		align-items: center;
+		justify-content: center;
+		background: url('../images/retro-gardener-full-screen.jpg') no-repeat right top;
+		background-size: cover;
+		height:100vh;
+		min-height:100vh;
+	}
+	&#portfolio {
+		.grid {
+			.cell{
+				.card {
+				  text-align: center;
+				  //border-radius: 6px;
+				  background-color: $white;
+				  border: solid 2px $light-gray;
+				  padding: 20px;
+				  margin-bottom: 24px;
+				  width: 100%;
+				  .project {
+						display: flex;
+						flex-direction: column;
+						justify-content: space-between;
+						align-items: center;
+						.thumbnail {
+						}
 					}
-				}
-				&:hover {
-					border: solid 2px $blue;
-					box-shadow: 1px 1px 5px $blue;
-					transition: all 1s;
-					cursor: pointer;
+					&:hover {
+						border: solid 2px $blue;
+						box-shadow: 1px 1px 5px $blue;
+						transition: all 1s;
+						cursor: pointer;
+					}
 				}
 			}
 		}
@@ -46,63 +67,56 @@ main {
 		  width: 100%;
 		  height: 100%;
 		  z-index: 995;
-		  background: rgba(0,0,0,0.55);
+		  background: rgba(0,0,0,0.75);
 	 }
 
 	 .modal_content {
-			z-index: 999;
-			position: absolute;
-			top: 30%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-			max-height: 90%;
-			overflow: auto;
-			background: $white;
-			box-sizing: border-box;
-			padding: 30px 10px 35px;
-			box-shadow: 0 1px 5px rgba(0,0,0,0.7);
-			border-radius: 7px;
-			border: 2px solid $grey;
-			width: 450px; /* This just a default width */
+		z-index: 999;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		max-height: 90%;
+		overflow: auto;
+		background: $white;
+		box-sizing: border-box;
+		padding: 30px 10px 35px;
+		box-shadow: 0 1px 5px rgba(0,0,0,0.7);
+		//border-radius: 7px;
+		border: 2px solid $gray;
+		width: 100%; /* This just a default width */
 
-			.card {
-			  text-align: center;
-				.user {
-					display: flex;
-					flex-direction: column;
-					justify-content: space-between;
-					align-items: center;
+		.card {
+		  text-align: center;
+			.project {
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				align-items: center;
 
-					.avatar {
+				.thumbnail {
 
-					}
-
-					.reveal-on-modal{
-						border-top: 1px solid $grey;
-						margin-top: 30px;
-						padding-top: 25px;
-
-						.phone, .address, .birthdate {
-							padding: .35em 0;
-						}
-					}
 				}
 
+
 			}
+
+		}
 	 }
 
 
 	.close_modal {
 			color: color(secondary);
 			position: absolute;
-			right: 10px;
-			top: 10px;
+			//right: 10px;
+			top: 0;
 			cursor: pointer;
 			font-size: 18px;
 			opacity: 0.5;
 			background: none;
 			border: none;
 			transition: opacity 0.2s ease;
+			text-align: right;
 	}
 
 	.close_modal:hover {
@@ -111,25 +125,96 @@ main {
 }
 
 @media (min-width: 768px) {
-	main {
-		.grid {
-			.cell{
-				.card {
-					.user {
-						display: flex;
-						flex-direction: row;
-						justify-content: flex-start;
-						.avatar {
-							width: 40%;
-						}
-						.user-info {
-							text-align: left;
-							width: 60%;
-							margin-left: 20px;
+	section {
+		#portfolio {
+			.grid {
+				.cell{
+					.card {
+						.project {
+							display: flex;
+							flex-direction: row;
+							justify-content: flex-start;
+							.thumbnail {
+								//width: 40%;
+							}
+							.project-info {
+								margin-top: 20px;
+								text-align: left;
+							}
 						}
 					}
 				}
 			}
+		}
+	}
+
+	.modal {
+		position: fixed;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 990;
+
+		.overlay {
+			  position: absolute;
+			  left: 0;
+			  top: 0;
+			  width: 100%;
+			  height: 100%;
+			  z-index: 995;
+			  background: rgba(0,0,0,0.75);
+		 }
+
+		 .modal_content {
+			z-index: 999;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			max-height: 90%;
+			overflow: auto;
+			background: $white;
+			box-sizing: border-box;
+			padding: 30px 10px 35px;
+			box-shadow: 0 1px 5px rgba(0,0,0,0.7);
+			//border-radius: 7px;
+			border: 2px solid $gray;
+			width: 90%; /* This just a default width */
+
+			.card {
+			  text-align: center;
+				.project {
+					display: flex;
+					flex-direction: column;
+					justify-content: space-between;
+					align-items: center;
+
+					.thumbnail {
+
+					}
+				}
+
+			}
+		 }
+
+
+		.close_modal {
+				color: color(secondary);
+				position: absolute;
+				//right: 10px;
+				top: 0;
+				cursor: pointer;
+				font-size: 18px;
+				opacity: 0.5;
+				background: none;
+				border: none;
+				transition: opacity 0.2s ease;
+				text-align: right;
+		}
+
+		.close_modal:hover {
+				opacity: 0.9;
 		}
 	}
 }
@@ -138,6 +223,76 @@ main {
 	header {
 		nav {
 			float: right;
+		}
+	}
+
+	.modal {
+		position: fixed;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 990;
+
+		.overlay {
+			  position: absolute;
+			  left: 0;
+			  top: 0;
+			  width: 100%;
+			  height: 100%;
+			  z-index: 995;
+			  background: rgba(0,0,0,0.75);
+		 }
+
+		 .modal_content {
+			z-index: 999;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			max-height: 90%;
+			overflow: auto;
+			background: $white;
+			box-sizing: border-box;
+			padding: 30px 10px 35px;
+			box-shadow: 0 1px 5px rgba(0,0,0,0.7);
+			//border-radius: 7px;
+			border: 2px solid $gray;
+			width: 1024px; /* This just a default width */
+
+			.card {
+			  text-align: center;
+				.project {
+					display: flex;
+					flex-direction: column;
+					justify-content: space-between;
+					align-items: center;
+
+					.thumbnail {
+
+					}
+				}
+
+			}
+		 }
+
+
+		.close_modal {
+				color: color(secondary);
+				position: absolute;
+				//right: 10px;
+				top: 0;
+				cursor: pointer;
+				font-size: 18px;
+				opacity: 0.5;
+				background: none;
+				border: none;
+				transition: opacity 0.2s ease;
+				text-align: right;
+		}
+
+		.close_modal:hover {
+				opacity: 0.9;
 		}
 	}
 }

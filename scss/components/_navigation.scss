@@ -1,19 +1,24 @@
 // Navigation
 nav {
+	align-items: center;
+	justify-content: center;
 	ul {
 		margin:0;
-		margin-top: 11px;
 		list-style-type: none;
 		display: flex;
-    flex-direction: row;
+    	flex-direction: row;
 		justify-content: space-around;
 		align-content: center;
+		color: $white;
 		li {
 			float: left;
 			padding: 10px;
+
+			a {
+				color: $white;
+			}
 			&.active, &:hover {
 				cursor: pointer;
-    		padding-bottom: 3.5%;
 			}
 		}
 	}
@@ -24,9 +29,23 @@ nav {
 		ul {
 			li {
 				&.active, &:hover {
-	    		padding-bottom: 1.5%;
 				}
 			}
 		}
 	}
+}
+
+#socialprofiles {
+	a {
+		color: $charcoal;
+	}
+}
+
+a:target {
+  position: relative;
+  height: 150px;
+  margin-top: -150px;
+  opacity: 0;
+  display: block !important;
+  z-index: -1;
 }

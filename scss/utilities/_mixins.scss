@@ -56,7 +56,7 @@
      $target: ($grid-column-width * $i) + ($grid-gutter * ($i - 1));
 
      // Generate column modifier classes
-     &--#{$i} {
+     &-#{$i} {
        width: 100% / $grid-column-count * $i;
      }
    }
