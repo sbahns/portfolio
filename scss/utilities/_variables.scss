@@ -9,9 +9,14 @@ $breakpoints: (
 );
 
 // Layout
+$container-max-width: 1200px;
+$grid-row-width: $container-max-width;
+$grid-column-width: $container-max-width;
+$grid-column-count: 12;
+$grid-gutter: 35px;
 
 $white: #ffffff;
-$off-white: #fbfbfb;
+$off-white: #fcfcfc;
 $cyan: #51ddfc;
 $lavender: #7477bf;
 $purple: #4d4c72;
@@ -25,8 +30,8 @@ $charcoal: #333333;
 
 // Colors
 $colors: (
-  primary: #808080,
-  secondary: #b13c69,
+  primary: #888e92,
+  secondary: #404a51,
   default: $cyan,
   success: $green,
   warning: $orange,

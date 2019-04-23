@@ -1,0 +1,256 @@
+{
+  "projects": [
+    {
+      "type": "website",
+      "name": {
+        "title": "Allegheny Treenware"
+      },
+			"info": {
+				"keywords" : "WordPress, WooCommerce, Stripe, WooThemes, customized WordPress theme",
+        "description": "This is a client I've supported since 1998. Their website has undergone many changes over the years, but they are a very successful local business that makes a unique handmade product and does the majority of their retail business online."
+      },
+      "location": {
+        "url": "https://alleghenytreenware.com"
+      },
+      "email": "wvspooners@spooners.com",
+      "registered": {
+        "year": "1998",
+        "age": 21
+      },
+      "phone": "304-892-5008",
+      "id": {
+        "name": "AT",
+        "value": "12117533881"
+      },
+      "picture": {
+        "large": "/images/screencaptures/screencapture-alleghenytreenware.png",
+        "medium": "/images/screencaptures/med/screencapture-alleghenytreenware.png",
+        "thumbnail": "/images/screencaptures/thumb/screencapture-alleghenytreenware.png"
+      }
+    },
+		{
+      "type": "website",
+      "name": {
+        "title": "Red Bone Mining"
+      },
+			"info": {
+				"keywords" : "WordPress, custom WordPress theme",
+        "description": ""
+      },
+      "location": {
+        "url": "https://redbonemining.com"
+      },
+      "email": "info@redbonemining.com",
+      "registered": {
+        "year": "2015",
+        "age": 4
+      },
+      "phone": "304-892-5008",
+      "id": {
+        "name": "RB",
+        "value": "12117533882"
+      },
+      "picture": {
+        "large": "/images/screencaptures/screencapture-redbonemining.png",
+        "medium": "/images/screencaptures/med/screencapture-redbonemining.png",
+        "thumbnail": "/images/screencaptures/thumb/screencapture-redbonemining.png"
+      }
+    },
+		{
+      "type": "demo",
+      "name": {
+        "title": "Web App Dashboard"
+      },
+			"info": {
+				"keywords" : "JavaScript, charts.js, CSS Grid",
+        "description": ""
+      },
+      "location": {
+        "url": ""
+      },
+      "email": "",
+      "registered": {
+        "year": "2019",
+        "age": 1
+      },
+      "phone": "",
+      "id": {
+        "name": "TH7",
+        "value": "12117533884"
+      },
+      "picture": {
+        "large": "/images/screencaptures/screencapture-7.png",
+        "medium": "/images/screencaptures/med/screencapture-7.png",
+        "thumbnail": "/images/screencaptures/thumb/screencapture-7.png"
+      }
+    },
+		{
+      "type": "website",
+      "name": {
+        "title": "Tygart Technology"
+      },
+			"info": {
+				"keywords" : "WordPress, custom WordPress theme",
+        "description": ""
+      },
+      "location": {
+        "url": "https://tygart.com"
+      },
+      "email": "info@redbonemining.com",
+      "registered": {
+        "year": "2019",
+        "age": 1
+      },
+      "phone": "",
+      "id": {
+        "name": "TT",
+        "value": "12117533885"
+      },
+      "picture": {
+        "large": "/images/screencaptures/screencapture-dev-tygart-com-1.jpg",
+        "medium": "/images/screencaptures/med/screencapture-dev-tygart-com-1.jpg",
+        "thumbnail": "/images/screencaptures/thumb/screencapture-dev-tygart-com-1.jpg"
+      }
+    },
+		{
+      "type": "website",
+      "name": {
+        "title": "Your AAA Network"
+      },
+			"info": {
+				"keywords" : "WordPress, custom WordPress theme",
+        "description": ""
+      },
+      "location": {
+        "url": "https://magazine.northeast.aaa.com"
+      },
+      "email": "",
+      "registered": {
+        "year": "2017",
+        "age": 2
+      },
+      "phone": "",
+      "id": {
+        "name": "MEQ",
+        "value": "12117533886"
+      },
+      "picture": {
+        "large": "/images/screencaptures/screencapture-aaa.png",
+        "medium": "/images/screencaptures/med/screencapture-aaa.png",
+        "thumbnail": "/images/screencaptures/thumb/screencapture-aaa.png"
+      }
+    },
+		{
+      "type": "website",
+      "name": {
+        "title": "Country Living Back Porch Club"
+      },
+			"info": {
+				"keywords" : "WordPress, custom WordPress theme",
+        "description": ""
+      },
+      "location": {
+        "url": "https://rclub.countryliving.com"
+      },
+      "email": "",
+      "registered": {
+        "year": "2018",
+        "age": 1
+      },
+      "phone": "",
+      "id": {
+        "name": "MEQ",
+        "value": "12117533887"
+      },
+      "picture": {
+        "large": "/images/screencaptures/screencapture-club-countryliving.png",
+        "medium": "/images/screencaptures/med/screencapture-club-countryliving.png",
+        "thumbnail": "/images/screencaptures/thumb/screencapture-club-countryliving.png"
+      }
+    },
+		{
+      "type": "website",
+      "name": {
+        "title": "New England Network"
+      },
+			"info": {
+				"keywords" : "WordPress, custom WordPress theme",
+        "description": ""
+      },
+      "location": {
+        "url": "https://newengland.com"
+      },
+      "email": "",
+      "registered": {
+        "year": "2016",
+        "age": 3
+      },
+      "phone": "",
+      "id": {
+        "name": "MEQ",
+        "value": "12117533888"
+      },
+      "picture": {
+        "large": "/images/screencaptures/screencapture-ynk.png",
+        "medium": "/images/screencaptures/med/screencapture-ynk.png",
+        "thumbnail": "/images/screencaptures/thumb/screencapture-ynk.png"
+      }
+    },
+		{
+			"type": "website",
+			"name": {
+				"title": "Entertainment Central Pittsburgh"
+			},
+			"info": {
+				"keywords" : "WordPress, custom WordPress theme",
+				"description": ""
+			},
+			"location": {
+				"url": "https://entertainmentcentralpittsburgh.com"
+			},
+			"email": "",
+			"registered": {
+				"year": "2012",
+				"age": 7
+			},
+			"phone": "",
+			"id": {
+				"name": "EC",
+				"value": "12117533889"
+			},
+			"picture": {
+				"large": "/images/screencaptures/screencapture-entertainmentcentralpittsburgh.png",
+				"medium": "/images/screencaptures/med/screencapture-entertainmentcentralpittsburgh.png",
+				"thumbnail": "/images/screencaptures/thumb/screencapture-entertainmentcentralpittsburgh.png"
+			}
+		},
+		{
+			"type": "demo",
+			"name": {
+				"title": "Employee Directory"
+			},
+			"info": {
+				"keywords" : "JavaScript, json, fetchAPI, CSS Grid, Sass",
+				"description": ""
+			},
+			"location": {
+				"url": "https://newengland.com"
+			},
+			"email": "",
+			"registered": {
+				"year": "2016",
+				"age": 3
+			},
+			"phone": "",
+			"id": {
+				"name": "TH8",
+				"value": "12117533888"
+			},
+			"picture": {
+				"large": "/images/screencaptures/screencapture-8.png",
+				"medium": "/images/screencaptures/med/screencapture-8.png",
+				"thumbnail": "/images/screencaptures/thumb/screencapture-8.png"
+			}
+		}
+  ]
+}

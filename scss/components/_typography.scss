@@ -7,93 +7,35 @@
 	font-weight: 300;
 }
 
-header, nav {
-	color: $white;
-}
 h1 {
-  margin: 0;
-  font-size: 24px;
+	color: color(secondary);
+  	margin: 0;
+  	font-size: em(24px);
 	font-weight: 300;
 }
+
 h2 {
+	color: color(secondary);
+	margin: 0;
 	font-size: em(20px);
 }
 
-h3 {
-	font-size: em(16px);
-	text-transform: uppercase;
-	margin-top: 0;
-	font-weight: normal;
+p {
+	margin: 0;
 }
 
-.bold {
-	font-weight: bold;
-}
-
-header {
-	.user-header {
-		.user {
-			.name {
-			    font-size: 14px;
-			}
-		}
+.user-info {
+	word-break: break-word;
+	.name {
+		text-transform: capitalize;
 	}
-}
-
-.alert {
-	h3 {
-		font-size: 14px;
-		text-transform: none;
-		float: left;
-		margin: 0;
-		margin-right: 10px;
-		//margin-left: 10px;
-	}
-	p {
-		font-size: 14px;
-		margin: 0;
-	}
-}
-
-.submodule{
-	.count {
-		margin: 0;
-		font-size: 48px;
-		line-height: 1;
-	}
-}
-
-.new-members {
 	.email {
-		line-height: 1;
-		a {
-			font-size: 14px;
-			color: $lavender;
-		}
-	}
-	.date {
-		font-size: 14px;
-	}
-}
-.recent-activity {
-	.time {
-		font-size: 14px;
-		line-height: 1;
-	}
-}
 
-.notification-list {
-	h3 {
-		font-size: 12px;
-		margin: 5px 10px 0;
 	}
-	.clear-notifications {
-		font-size: 10px;
+	.city {
+		text-transform: capitalize;
 	}
-	ul {
-		li{
-			font-size: 12px;
-			line-height: 1;
-		}
+	.address {
+		text-transform: capitalize;
 	}
 }
