@@ -11,7 +11,7 @@
         "description": "This is a web app dashboard demonstration. The project includes various JavaScript techniques and functionality and utilizes CSS Grid and flexbox."
       },
       "location": {
-        "url": "https://github.com/sbahns/tech-degree-project-7"
+        "url": "https://github.com/sbahns/web-app-dashboard"
       },
       "email": "N/A",
       "registered": {
@@ -40,7 +40,7 @@
 			"description": "This is a demonstration of an employee directory that pulls in JSON data using fetch API."
 		},
 		"location": {
-			"url": "https://github.com/sbahns/tech-degree-project-8"
+			"url": "https://github.com/sbahns/employee-directory"
 		},
 		"email": "N/A",
 		"registered": {
@@ -69,7 +69,7 @@
 			"description": "This is a demonstration JavaScript app where the user guesses the phrases listed in an array."
 		},
 		"location": {
-			"url": "https://github.com/sbahns/tech-degree-project-6"
+			"url": "https://github.com/sbahns/game-show-app"
 		},
 		"email": "N/A",
 		"registered": {
@@ -98,7 +98,7 @@
 			"description": "This is a demo jQuery-based photo gallery with search."
 		},
 		"location": {
-			"url": "https://github.com/sbahns/tech-degree-project-5"
+			"url": "https://github.com/sbahns/photo-gallery-project"
 		},
 		"email": "N/A",
 		"registered": {
@@ -127,7 +127,7 @@
 			"description": "This is a demo of a basic HTML form."
 		},
 		"location": {
-			"url": "https://github.com/sbahns/tech-degree-project-4"
+			"url": "https://github.com/sbahns/html-form-project"
 		},
 		"email": "N/A",
 		"registered": {
