@@ -4,6 +4,7 @@
 		<meta charset="utf-8">
 		<title>Sarah R. Barnes - Portfolio</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Arbutus+Slab|Karma:400,700" rel="stylesheet">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/styles.css">
 	</head>
@@ -26,7 +27,7 @@
 					</a>
 				</div>
 				<div class="col-8">
-					<nav class="navigation">
+					<nav id="navigation">
 						<ul class="menu">
 							<li class="menu-item">
 								<a href="#home">Home</a>
@@ -59,21 +60,12 @@
 		<section id="about" class="container">
 			<h2>About Me</h2>
 			<div class="row">
-			<div class="col-3">
-				<div id="about-content" class="animated fadeIn" style="display: block;">
+			<div class="col-2">
+				<div id="about-content">
 					<img id="profile-image" src="https://sarahbarnesweb.com/wp-content/uploads/2019/04/me-round.png">
 				</div>
-				<div id="socialprofiles">
-					<a href="https://www.linkedin.com/in/sarahbarnes/" target="_blank" data-external="true"><i class="fab fa-linkedin"></i></a>
-					<a href="https://github.com/sbahns" target="_blank"><i class="fab fa-github"></i></a>
-					<a href="https://dribbble.com/srbarnes" target="_blank"><i class="fab fa-dribbble-square"></i></a>
-					<a href="https://www.facebook.com/sarahbarnesweb/" target="_blank"><i class="fab fa-facebook"></i></a>
-					<a href="https://twitter.com/srbarnes" target="_blank"><i class="fab fa-twitter-square"></i></a>
-					<a href="tel:+13045549075?call" target="_blank"><i class="fas fa-phone"></i></a>
-					<a href="mailto:sarah@sarahbarnesweb.com" target="_blank"><i class="fas fa-envelope"></i></a>
-			</div>
 		</div>
-		<div class="col-9">
+		<div class="col-10">
 			<p>I am currently working as a freelance front end web developer / ux designer. I've been in this field for over 20 years developing websites for small businesses, higher education, events, state and federal government projects, non-profits, and programs.</p>
 
 			<p>The bulk of my work the last 6 years has been in working as part of a distributed team of contractors working for an agency out of Boston. So I am very comfortable in working with distributed teams and working on Scrum teams and using Git, Jira, Confluence, Slack, and Zoom to collaborate. The vast majority of my work is in developing custom themes and collaborating on plugins for WordPress, but I have worked with other platforms as well. I am a strong team player and am well-regarded for my ability to get things done, meet deadlines, and coordinate many types of projects. </p>
@@ -86,6 +78,7 @@
 	</section>
 		<section id="portfolio" class="container">
 			<h2>Portfolio</h2>
+
 			<div class="grid"></div>
 			 <div class="modal" style="display: none">
 				<div class="overlay"></div>
@@ -95,19 +88,72 @@
 			        </button>
 			    </div>
 			</div>
+
+
 		</section>
 		<section id="contact" class="container">
 			<h2>Contact</h2>
 			<div class="row">
-			<div class="col-6">
+			<div class="col-12">
 				<div id="socialprofiles">
-					<a href="https://www.linkedin.com/in/sarahbarnes/" target="_blank" data-external="true"><i class="fab fa-linkedin"></i></a>
-					<a href="https://github.com/sbahns" target="_blank"><i class="fab fa-github"></i></a>
-					<a href="https://dribbble.com/srbarnes" target="_blank"><i class="fab fa-dribbble-square"></i></a>
-					<a href="https://www.facebook.com/sarahbarnesweb/" target="_blank"><i class="fab fa-facebook"></i></a>
-					<a href="https://twitter.com/srbarnes" target="_blank"><i class="fab fa-twitter-square"></i></a>
-					<a href="tel:+13045549075?call" target="_blank"><i class="fas fa-phone"></i></a>
-					<a href="mailto:sarah@sarahbarnesweb.com" target="_blank"><i class="fas fa-envelope"></i></a>
+					<a href="https://www.linkedin.com/in/sarahbarnes/" target="_blank" data-external="true">
+						<svg id="linkedin" data-name="linkedin" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 382 382">
+							<title>linkedin</title>
+							<path class="cls-1" d="M347.45,0H34.56A34.56,34.56,0,0,0,0,34.56V347.44A34.56,34.56,0,0,0,34.56,382H347.44A34.56,34.56,0,0,0,382,347.44V34.56A34.55,34.55,0,0,0,347.45,0ZM118.21,329.84a10.05,10.05,0,0,1-10.06,10.06H65.35a10.05,10.05,0,0,1-10.06-10.06V150.4a10.05,10.05,0,0,1,10.06-10.05h42.8a10.05,10.05,0,0,1,10.06,10.05ZM86.75,123.43a40.67,40.67,0,1,1,40.66-40.66A40.67,40.67,0,0,1,86.75,123.43ZM341.91,330.65a9.25,9.25,0,0,1-9.25,9.25H286.73a9.25,9.25,0,0,1-9.25-9.25V246.49c0-12.56,3.69-55-32.81-55-28.31,0-34,29.07-35.2,42.11v97.08a9.25,9.25,0,0,1-9.25,9.25H155.8a9.25,9.25,0,0,1-9.25-9.25V149.59a9.25,9.25,0,0,1,9.25-9.24h44.42a9.25,9.25,0,0,1,9.25,9.24v15.66c10.49-15.76,26.09-27.91,59.31-27.91,73.55,0,73.13,68.71,73.13,106.47v86.84Z"/>
+						</svg>
+					</a>
+					<a href="https://github.com/sbahns" target="_blank">
+						<svg id="github" data-name="github" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 438.54 438.54">
+							<title>github</title>
+							<path d="M158.17,352.6q-4.57.86-4,4.28c.38,2.28,2.1,3.05,5.14,2.28s4.38-2.09,4-4C162.93,353.07,161.22,352.22,158.17,352.6Z"/>
+							<path d="M141.9,354.89q-4.58,0-4.57,3.13c0,2.48,1.62,3.52,4.85,3.14,3,0,4.57-1,4.57-3.14C146.75,355.55,145.13,354.5,141.9,354.89Z"/>
+							<path d="M119.63,354c-.76,2.1.48,3.52,3.71,4.29q4.27,1.69,5.42-1.72.87-3.13-3.71-4.57C122.2,351.27,120.39,351.92,119.63,354Z"/>
+							<path d="M414.41,24.12Q390.29,0,356.31,0H82.22q-34,0-58.1,24.12T0,82.22V356.31q0,34,24.12,58.1t58.1,24.13h64a77.07,77.07,0,0,0,9.42-.43q3.14-.42,6.28-3.71t3.14-9.57q0-.84-.15-19.41T164.73,376l-6.57,1.14a84.46,84.46,0,0,1-15.84,1,122.07,122.07,0,0,1-19.84-2,44.45,44.45,0,0,1-19.13-8.56A36.21,36.21,0,0,1,90.79,350l-2.86-6.57a71.54,71.54,0,0,0-9-14.56q-6.15-8-12.42-10.85l-2-1.43a20.86,20.86,0,0,1-3.71-3.42,15.94,15.94,0,0,1-2.57-4c-.57-1.34-.1-2.43,1.43-3.29S64,304.63,68,304.63l5.71.86q5.7,1.14,14.13,6.85a46.08,46.08,0,0,1,13.85,14.84q6.57,11.71,15.84,17.84t18.7,6.15a80.88,80.88,0,0,0,16.27-1.43,56.26,56.26,0,0,0,12.85-4.29q2.56-19.12,14-29.41A194.81,194.81,0,0,1,150,310.9a116.49,116.49,0,0,1-26.83-11.13,77,77,0,0,1-23-19.13q-9.14-11.43-15-30t-5.85-42.83q0-34.54,22.55-58.81-10.56-26,2-58.24,8.28-2.58,24.55,3.85t23.84,11q7.58,4.56,12.14,7.71a206.22,206.22,0,0,1,109.64,0l10.85-6.85a153,153,0,0,1,26.27-12.56q15.12-5.72,23.12-3.14Q347.17,123,336.61,149q22.56,24.27,22.56,58.81,0,24.27-5.85,43t-15.13,30a79.89,79.89,0,0,1-23.13,19,116.19,116.19,0,0,1-26.84,11.13A194.37,194.37,0,0,1,259,316.05q14.84,12.84,14.84,40.54v68.23a18.45,18.45,0,0,0,1.42,7.86,7.92,7.92,0,0,0,4.58,4.14,25.18,25.18,0,0,0,5.57,1.42,64.15,64.15,0,0,0,7,.29h63.95q34,0,58.1-24.13t24.13-58.1V82.22Q438.53,48.26,414.41,24.12Z"/><path d="M86.79,319.2c-1.33.94-1.14,2.47.57,4.56q2.86,2.85,4.57.86c1.34-.95,1.15-2.48-.57-4.57C89.46,318.34,87.94,318.05,86.79,319.2Z"/>
+							<path d="M77.37,312.06c-.57,1.33.1,2.48,2,3.42,1.52,1,2.77.77,3.71-.56.57-1.34-.09-2.48-2-3.44C79.18,310.91,77.94,311.1,77.37,312.06Z"/>
+							<path d="M95.65,330.33c-1.72.95-1.72,2.67,0,5.14s3.32,3.14,4.85,2q2.56-2,0-5.43C99,329.57,97.36,329,95.65,330.33Z"/>
+							<path d="M105.64,343.17c-1.71,1.53-1.33,3.33,1.14,5.43,2.28,2.28,4.19,2.57,5.71.85,1.52-1.52,1.14-3.32-1.14-5.42C109.07,341.75,107.16,341.46,105.64,343.17Z"/>
+						</svg>
+					</a>
+					<a href="https://dribbble.com/srbarnes" target="_blank">
+						<svg id="dribbble" data-name="dribbble" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 425.28 425.28">
+							<title>dribbble</title>
+							<path class="cls-1" d="M212.64,0C95.2,0,0,95.2,0,212.64S95.2,425.28,212.64,425.28s212.64-95.2,212.64-212.64S330.07,0,212.64,0Zm172,197.35a551.08,551.08,0,0,0-113.81,7.55q-6.59-15.77-13.37-30.21c2.82-1.31,5.6-2.64,8.34-4,33.33-16.8,61-38.53,82.59-64.76A171,171,0,0,1,384.6,197.35ZM320,77.4Q289.75,115.88,239.64,139c-3.76-7.06-7.45-13.79-11-20.1a777.87,777.87,0,0,0-49-75.79,174.64,174.64,0,0,1,33-3.14A171.31,171.31,0,0,1,320,77.4ZM90.56,90.56a172.87,172.87,0,0,1,48.82-34.34,723.2,723.2,0,0,1,55,83.41q3.72,6.57,7.59,13.74a400.12,400.12,0,0,1-53.7,12.42A514.85,514.85,0,0,1,44.9,171.57,171.54,171.54,0,0,1,90.56,90.56ZM40,212.64c0-.41,0-.82,0-1.23,7.38.4,16.77.72,27.72.72a546.82,546.82,0,0,0,85.9-6.7,427.81,427.81,0,0,0,66.54-16q5.49,11.63,10.9,24.22a355.62,355.62,0,0,0-72.69,27.89C123,260.1,94.1,284.2,72.38,313.33A171.28,171.28,0,0,1,40,212.64Zm60,130.83C130.37,299,179.34,268,245.89,251.08a629.8,629.8,0,0,1,31.35,121.74A173,173,0,0,1,100,343.47Zm234.72-8.76a174.37,174.37,0,0,1-20.29,17.4A675.08,675.08,0,0,0,285.49,243a517.34,517.34,0,0,1,98-5.64A171.36,171.36,0,0,1,334.71,334.71Z"/>
+						</svg>
+					</a>
+					<a href="https://www.facebook.com/sarahbarnesweb/" target="_blank">
+						<svg id="facebook" data-name="facebook" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 408.78 408.79">
+							<title>facebook</title>
+							<path class="cls-1" d="M353.7,0H55.09A55.09,55.09,0,0,0,0,55.08V353.7a55.09,55.09,0,0,0,55.09,55.09H202.36l.25-146.08h-38a9,9,0,0,1-8.95-8.92l-.18-47.09a9,9,0,0,1,8.95-9h37.88v-45.5c0-52.8,32.25-81.55,79.35-81.55h38.65a9,9,0,0,1,9,9v39.7a9,9,0,0,1-8.95,9H296.65c-25.62,0-30.58,12.17-30.58,30v39.39h56.29a9,9,0,0,1,8.89,10l-5.58,47.09a9,9,0,0,1-8.89,7.9H266.32l-.25,146.08H353.7a55.09,55.09,0,0,0,55.09-55.09V55.08A55.09,55.09,0,0,0,353.7,0Z" transform="translate(0)"/>
+						</svg>
+
+					</a>
+					<a href="https://twitter.com/srbarnes" target="_blank">
+						<svg id="twitter" data-name="twitter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 410.15 341.17">
+							<title>twitter</title>
+							<path class="cls-1" d="M403.63,74.18a162.51,162.51,0,0,1-28.28,9.54,88.22,88.22,0,0,0,23.28-37.07h0a4.63,4.63,0,0,0-6.77-5.39h0a163.09,163.09,0,0,1-43.23,17.87,11.15,11.15,0,0,1-2.7.33,11.41,11.41,0,0,1-7.57-2.89,88.44,88.44,0,0,0-58.51-22.08,94.59,94.59,0,0,0-28,4.33,85.65,85.65,0,0,0-57.73,61.72A94.23,94.23,0,0,0,192,133.1a3.15,3.15,0,0,1-.8,2.48,3.27,3.27,0,0,1-2.43,1.11l-.32,0C125.69,130.84,69.09,100.6,29.09,51.53h0a4.63,4.63,0,0,0-7.58.59h0A88.54,88.54,0,0,0,35.9,159.61a78.93,78.93,0,0,1-20.17-7.81h0a4.63,4.63,0,0,0-6.87,4h0a88.53,88.53,0,0,0,51.65,81.57l-1.89,0A79.82,79.82,0,0,1,43.72,236h0a4.62,4.62,0,0,0-5.27,5.95h0a88.64,88.64,0,0,0,70,60.28,163.16,163.16,0,0,1-91.39,27.75H6.83A6.79,6.79,0,0,0,.21,335a7,7,0,0,0,3.36,7.74,242.7,242.7,0,0,0,122,32.88c37.49,0,72.55-7.44,104.22-22.11A230.07,230.07,0,0,0,306,296.41a250.43,250.43,0,0,0,46.69-78.2,247.06,247.06,0,0,0,15.87-85.59v-1.34a15,15,0,0,1,5.63-11.71A174.51,174.51,0,0,0,409.35,81h0a4.62,4.62,0,0,0-5.72-6.79Z" transform="translate(0 -34.49)"/>
+						</svg>
+					</a>
+					<a href="tel:+13045549075?call" target="_blank">
+						<svg id="phone" data-name="phone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+							<title>phone-receiver</title>
+							<path class="cls-1" d="M512,129C512,57.77,439.26,0,349.53,0S187.07,57.77,187.07,129c0,63.66,58.05,116.55,134.41,127.11h-.23a80.49,80.49,0,0,1-22.19,69.73c40.35,0,73.66-30.39,78.72-69.73h-.23C453.92,245.6,512,192.7,512,129Z" transform="translate(0)"/>
+							<circle class="cls-2" cx="292.26" cy="129.02" r="11.38"/>
+							<circle class="cls-2" cx="406.8" cy="129.02" r="11.38"/>
+							<circle class="cls-2" cx="349.54" cy="129.02" r="11.38"/>
+							<path class="cls-3" d="M350,411.75a651.43,651.43,0,0,0-50.93-45.28L260.7,404.84,107.16,251.3l38.37-38.37A649,649,0,0,0,100.25,162a650.36,650.36,0,0,0-50.93-45.29S3.34,159,.25,192.56c-4.14,44.9,43.4,126.54,118,201.17s156.27,122.16,201.17,118c33.55-3.09,75.85-49.07,75.85-49.07A650.36,650.36,0,0,0,350,411.75Z" transform="translate(0)"/>
+						</svg>
+					</a>
+					<a href="mailto:sarah@sarahbarnesweb.com" target="_blank">
+						<svg id="email" data-name="email" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+							<title>email</title>
+							<path class="cls-1" d="M512,368V181.6L256,67.78,0,181.6V368Z"/>
+							<path class="cls-2" d="M448,416H64V32A32,32,0,0,1,96,0H416a32,32,0,0,1,32,32Z"/>
+							<path class="cls-3" d="M262.4,48.16a128,128,0,0,0-30.56,253.6,131.4,131.4,0,0,0,24,2.21,128.74,128.74,0,0,0,49.86-10A16,16,0,0,0,313,270.91a15.85,15.85,0,0,0-19.79-6.4A96,96,0,1,1,260.8,80.11a99.31,99.31,0,0,1,91.2,100V192a16,16,0,0,1-32,0V179a66,66,0,0,0-62.11-67,64,64,0,1,0,41.54,110.69,47.56,47.56,0,0,0,44.39,16.64A49.74,49.74,0,0,0,384,189.57v-9.46A130.05,130.05,0,0,0,262.4,48.16ZM256,208a32,32,0,1,1,32-32A32,32,0,0,1,256,208Z"/>
+							<path class="cls-4" d="M256,368,0,206.4V480a32,32,0,0,0,32,32H480a32,32,0,0,0,32-32V206.4Z"/>
+							<path class="cls-5" d="M194.4,329,24,510.88a31.78,31.78,0,0,1-22.88-22.4l165.6-176.8Z"/>
+							<path class="cls-5" d="M510.88,488.48A31.78,31.78,0,0,1,488,510.88L317.6,329l27.68-17.28Z"/>
+						</svg>
+					</a>
 				</div>
 			</div>
 			</div>

@@ -4,6 +4,11 @@ img {
 	width: 100%;
 	height: auto;
 	display: block;
+
+	&#profile-image {
+		max-width: 150px;
+		margin: 0 auto 30px;
+	}
 }
 
 header.white{
@@ -71,6 +76,31 @@ header.blue{
 			img {
 				 cursor: pointer;
 			 }
+		}
+	}
+}
+
+#socialprofiles {
+	text-align: center;
+	a {
+		color: $charcoal;
+	}
+
+	svg {
+		max-width: 32px;
+		fill: $blue;
+		margin: 10px;
+		&#phone {
+			.cls-1{fill:$blue;}
+			.cls-2{fill:$white;}
+			.cls-3{fill:$blue;}
+		}
+		&#email {
+			.cls-1{fill:$blue;}
+			.cls-2{fill:$blue;}
+			.cls-3{fill:$white;}
+			.cls-4{fill:#eee;}
+			.cls-5{fill:$blue;}
 		}
 	}
 }

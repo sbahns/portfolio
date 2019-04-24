@@ -4,10 +4,40 @@ const overlay = document.querySelector('.overlay');
 const modal = document.querySelector('.modal');
 const modal_content = document.querySelector('.modal_content');
 
-// function formatDate(setTime) {
-// 	var str = setTime;
-// 	var res = str.slice(0, 9);
-// }
+let logo = document.getElementById("srbweb_logo");
+
+let nav = document.getElementById("navigation");
+let menu_items = nav.getElementsByClassName("menu-item");
+
+for (var i = 0; i < menu_items.length; i++) {
+  menu_items[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+
+    // If there's no active class
+    if (current.length > 0) {
+      current[0].className = current[0].className.replace(" active", "");
+    }
+
+    // Add the active class to the current/clicked button
+    this.className += " active";
+  });
+}
+
+
+logo.addEventListener("click", function() {
+	for (var i = 0; i < menu_items.length; i++) {
+	    var current = document.getElementsByClassName("active");
+	    // If there's no active class
+	    if (current.length > 0) {
+	      current[0].className = current[0].className.replace(" active", "");
+	    }
+	    // remove the active
+	    this.className += "";
+	}
+});
+
+
+
 
 const json = '/projects.json'; // Get projects
 

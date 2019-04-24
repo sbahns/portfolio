@@ -8,7 +8,7 @@ nav {
 		margin:0;
 		list-style-type: none;
 		display: flex;
-    flex-direction: row;
+    	flex-direction: row;
 		justify-content: space-around;
 		align-content: center;
 
@@ -18,6 +18,9 @@ nav {
 
 			&.active, &:hover {
 				cursor: pointer;
+				a {
+					color: $charcoal;
+				}
 			}
 		}
 	}
@@ -50,19 +53,10 @@ header {
 	nav {
 		ul {
 			margin:15px 0;
-			li {
-				&.active, &:hover {
-				}
-			}
 		}
 	}
 }
 
-#socialprofiles {
-	a {
-		color: $charcoal;
-	}
-}
 
 a:target {
   position: relative;

@@ -438,7 +438,7 @@ ul {
 :: Grid
 -------------------------------------------------- */
 header {
-  padding: 15px;
+  padding: 10px 0 0;
   grid-area: header;
   align-items: center;
   display: grid;
@@ -500,25 +500,27 @@ section .grid {
   .col-12 {
     width: 100%; } }
 
-@media (min-width: 1px) and (max-width: 767px) {
-  [class^="col"] {
-    width: 100%;
-    margin-top: 0.75em;
-    margin-bottom: 0.75em; } }
-@media (min-width: 768px) {
-  [class^="col"] {
-    float: left;
-    min-height: 1px;
-    padding-left: 10px;
-    padding-right: 10px; }
-    [class^="col"]:last-of-type {
-      float: right; } }
+[class^="col"] {
+  padding-left: 20px;
+  padding-right: 20px; }
+  @media (min-width: 1px) and (max-width: 767px) {
+    [class^="col"] {
+      width: 100%; } }
+  @media (min-width: 768px) {
+    [class^="col"] {
+      float: left;
+      min-height: 1px; }
+      [class^="col"]:last-of-type {
+        float: right; } }
 
 .row {
   display: flex;
   flex-wrap: wrap; }
 
 @media (min-width: 768px) {
+  header {
+    padding: 15px; }
+
   section .grid {
     display: flex;
     flex-direction: row;
@@ -555,7 +557,7 @@ h1, h2, h3, nav {
 h1 {
   color: #404a51;
   margin: 0;
-  font-size: 1.75em; }
+  font-size: 2.125em; }
 
 #hero h1 {
   text-align: right;
@@ -570,8 +572,10 @@ h2 {
   font-size: 1.75em; }
 
 section h2 {
+  font-family: 'Arbutus Slab', serif;
   text-align: center;
-  margin: 15px auto; }
+  margin: 15px auto;
+  font-size: 3em; }
 
 h3 {
   color: #404a51;
@@ -610,6 +614,8 @@ nav {
       padding: 10px; }
       nav ul li.active, nav ul li:hover {
         cursor: pointer; }
+        nav ul li.active a, nav ul li:hover a {
+          color: #333333; }
 
 header.white nav a {
   color: #3fabca; }
@@ -623,9 +629,6 @@ header.blue nav a {
 @media (min-width: 768px) {
   nav ul {
     margin: 15px 0; } }
-#socialprofiles a {
-  color: #333333; }
-
 a:target {
   position: relative;
   height: 150px;
@@ -641,6 +644,9 @@ img {
   width: 100%;
   height: auto;
   display: block; }
+  img#profile-image {
+    max-width: 150px;
+    margin: 0 auto 30px; }
 
 header.white .logo svg {
   width: 100%;
@@ -711,6 +717,31 @@ header.blue .logo svg {
 
 .modal_content .card .thumbnail img {
   cursor: pointer; }
+
+#socialprofiles {
+  text-align: center; }
+  #socialprofiles a {
+    color: #333333; }
+  #socialprofiles svg {
+    max-width: 32px;
+    fill: #3fabca;
+    margin: 10px; }
+    #socialprofiles svg#phone .cls-1 {
+      fill: #3fabca; }
+    #socialprofiles svg#phone .cls-2 {
+      fill: #ffffff; }
+    #socialprofiles svg#phone .cls-3 {
+      fill: #3fabca; }
+    #socialprofiles svg#email .cls-1 {
+      fill: #3fabca; }
+    #socialprofiles svg#email .cls-2 {
+      fill: #3fabca; }
+    #socialprofiles svg#email .cls-3 {
+      fill: #ffffff; }
+    #socialprofiles svg#email .cls-4 {
+      fill: #eee; }
+    #socialprofiles svg#email .cls-5 {
+      fill: #3fabca; }
 
 /*--------------------------------------------------
 :: Button styles
@@ -803,6 +834,7 @@ section {
     background-size: cover;
     height: 100vh;
     min-height: 100vh;
+    padding-top: 150px;
     padding-bottom: 50px; }
   section#about {
     padding-top: 150px;
@@ -810,13 +842,13 @@ section {
     text-align: left; }
   section#portfolio {
     padding-top: 150px;
-    padding-bottom: 50px;
-    border-top: 1px solid #efe0e0;
-    border-bottom: 1px solid #efe0e0; }
+    padding-bottom: 150px;
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef; }
     section#portfolio .grid .cell .card {
       text-align: center;
       background-color: #ffffff;
-      border: solid 2px #efe0e0;
+      border: solid 2px #efefef;
       padding: 20px;
       margin-bottom: 24px;
       width: 100%; }
@@ -825,15 +857,20 @@ section {
         flex-direction: column;
         justify-content: space-between;
         align-items: center; }
-        section#portfolio .grid .cell .card .project .url {
-          font-size: .8rem; }
+        section#portfolio .grid .cell .card .project .project-info {
+          margin-top: 20px; }
+          section#portfolio .grid .cell .card .project .project-info .url {
+            font-size: .8rem; }
       section#portfolio .grid .cell .card:hover {
         border: solid 2px #3fabca;
         box-shadow: 1px 1px 5px #3fabca;
         transition: all 1s;
         cursor: pointer; }
   section#contact {
-    padding-top: 150px; }
+    padding-top: 150px;
+    height: 100vh;
+    min-height: 100vh;
+    justify-content: center; }
 
 .modal {
   position: fixed;
@@ -947,6 +984,11 @@ section {
 @media (min-width: 1024px) {
   header nav {
     float: right; }
+
+  section#about {
+    height: 100vh;
+    min-height: 100vh;
+    justify-content: center; }
 
   .modal {
     position: fixed;

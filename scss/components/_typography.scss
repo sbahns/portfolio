@@ -17,7 +17,7 @@ h1, h2, h3, nav {
 h1 {
 	color: color(secondary);
   	margin: 0;
-  	font-size: em(28px);
+  	font-size: em(34px);
 }
 
 #hero {
@@ -40,8 +40,10 @@ h2 {
 
 section {
 	h2 {
+		font-family: 'Arbutus Slab', serif;
 		text-align: center;
 		margin: 15px auto;
+		font-size: 3em;
 	}
 }
 
@@ -60,7 +62,6 @@ p {
 	word-break: break-word;
 	.name {
 		text-transform: uppercase;
-		
 	}
 }
 
