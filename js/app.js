@@ -39,7 +39,7 @@ logo.addEventListener("click", function() {
 
 
 
-const json = '/projects.json'; // Get projects
+const json = 'projects.json'; // Get projects
 
 let project = [];
 let selectedProfile = 0;
