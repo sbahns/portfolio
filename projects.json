@@ -1,54 +1,24 @@
 {
   "projects": [
-	  {
-	"type": "website",
-	"name": {
-	  "title": "Tygart Technology",
-	  "client": "Tygart Technology, Inc"
-	},
-	"info": {
-	 	"keywords" : "WordPress, custom WordPress theme",
-	 	"description": "This was a complete redesign of the client's existing website. We worked together in an iterative process over the course of a year to develop a site that fit their goals of updating the way their company presented itself, its products, and services online.",
-		"role": "UX Design, Front End Development and implementation, QA testing"
-	},
-	"location": {
-	  "url": "https://tygart.com"
-	},
-	"email": "",
-	"registered": {
-	  "year": "2018",
-	  "age": 1
-	},
-	"phone": "",
-	"id": {
-	  "name": "TT",
-	  "value": "12117533885"
-	},
-	"picture": {
-	  "large": "/images/screencaptures/screencapture-dev-tygart-com-1.jpg",
-	  "medium": "/images/screencaptures/med/screencapture-dev-tygart-com-1.jpg",
-	  "thumbnail": "/images/screencaptures/thumb/screencapture-dev-tygart-com-1.jpg"
-	}
-  },
 	{
       "type": "demo",
       "name": {
         "title": "Web App Dashboard",
-		"client": ""
+		"client": "N/A"
       },
 		"info": {
 		"keywords" : "JavaScript, charts.js, CSS Grid",
-        "description": ""
+        "description": "This is a web app dashboard demonstration. The project includes various JavaScript techniques and functionality and utilizes CSS Grid and flexbox."
       },
       "location": {
-        "url": ""
+        "url": "https://github.com/sbahns/tech-degree-project-7"
       },
-      "email": "",
+      "email": "N/A",
       "registered": {
       "year": "2019",
       "age": 1
       },
-      "phone": "",
+      "phone": "N/A",
       "id": {
         "name": "TH7",
         "value": "12117533884"
@@ -63,21 +33,21 @@
 		"type": "demo",
 		"name": {
 			"title": "Employee Directory",
-			"client": ""
+			"client": "N/A"
 		},
 		"info": {
-			"keywords" : "JavaScript, json, fetchAPI, CSS Grid, Sass",
-			"description": ""
+			"keywords" : "JavaScript, JSON, fetch API, CSS Grid, Sass",
+			"description": "This is a demonstration of an employee directory that pulls in JSON data using fetch API."
 		},
 		"location": {
-			"url": ""
+			"url": "https://github.com/sbahns/tech-degree-project-8"
 		},
-		"email": "",
+		"email": "N/A",
 		"registered": {
-			"year": "2016",
-			"age": 3
+			"year": "2019",
+			"age": 1
 		},
-		"phone": "",
+		"phone": "N/A",
 		"id": {
 			"name": "TH8",
 			"value": "12117533888"
@@ -89,10 +59,127 @@
 		}
 	},
 	{
+		"type": "demo",
+		"name": {
+			"title": "Game Show App",
+			"client": "N/A"
+		},
+		"info": {
+			"keywords" : "JavaScript",
+			"description": "This is a demonstration JavaScript app where the user guesses the phrases listed in an array."
+		},
+		"location": {
+			"url": "https://github.com/sbahns/tech-degree-project-6"
+		},
+		"email": "N/A",
+		"registered": {
+			"year": "2019",
+			"age": 1
+		},
+		"phone": "N/A",
+		"id": {
+			"name": "TH6",
+			"value": "12117533888"
+		},
+		"picture": {
+			"large": "/images/screencaptures/screencapture-6.png",
+			"medium": "/images/screencaptures/med/screencapture-6.png",
+			"thumbnail": "/images/screencaptures/thumb/screencapture-6.png"
+		}
+	},
+	{
+		"type": "demo",
+		"name": {
+			"title": "Photo Gallery",
+			"client": "N/A"
+		},
+		"info": {
+			"keywords" : "jQuery, CSS, Sass",
+			"description": "This is a demo jQuery-based photo gallery with search."
+		},
+		"location": {
+			"url": "https://github.com/sbahns/tech-degree-project-5"
+		},
+		"email": "N/A",
+		"registered": {
+			"year": "2019",
+			"age": 1
+		},
+		"phone": "N/A",
+		"id": {
+			"name": "TH5",
+			"value": "12117533889"
+		},
+		"picture": {
+			"large": "/images/screencaptures/screencapture-5b.png",
+			"medium": "/images/screencaptures/med/screencapture-5b.png",
+			"thumbnail": "/images/screencaptures/thumb/screencapture-5b.png"
+		}
+	},
+	{
+		"type": "demo",
+		"name": {
+			"title": "Form Demo",
+			"client": "N/A"
+		},
+		"info": {
+			"keywords" : "HTML forms, CSS, Sass",
+			"description": "This is a demo of a basic HTML form."
+		},
+		"location": {
+			"url": "https://github.com/sbahns/tech-degree-project-4"
+		},
+		"email": "N/A",
+		"registered": {
+			"year": "2019",
+			"age": 1
+		},
+		"phone": "N/A",
+		"id": {
+			"name": "TH3",
+			"value": "12117533890"
+		},
+		"picture": {
+			"large": "/images/screencaptures/screencapture-3.png",
+			"medium": "/images/screencaptures/med/screencapture-3.png",
+			"thumbnail": "/images/screencaptures/thumb/screencapture-3.png"
+		}
+	},
+	{
+	  "type": "website",
+	  "name": {
+		"title": "Tygart Technology",
+		"client": "Tygart Technology, Inc"
+	  },
+	  "info": {
+		  "keywords" : "WordPress, custom WordPress theme",
+		  "description": "This was a complete redesign of the client's existing website. We worked together in an iterative process over the course of a year to develop a site that fit their goals of updating the way their company presented itself, its products, and services online.",
+		  "role": "UX Design, Front End Development and implementation, QA testing"
+	  },
+	  "location": {
+		"url": "https://tygart.com"
+	  },
+	  "email": "",
+	  "registered": {
+		"year": "2018",
+		"age": 1
+	  },
+	  "phone": "",
+	  "id": {
+		"name": "TT",
+		"value": "12117533885"
+	  },
+	  "picture": {
+		"large": "/images/screencaptures/screencapture-dev-tygart-com-1.jpg",
+		"medium": "/images/screencaptures/med/screencapture-dev-tygart-com-1.jpg",
+		"thumbnail": "/images/screencaptures/thumb/screencapture-dev-tygart-com-1.jpg"
+	  }
+	},
+	{
       "type": "website",
       "name": {
         "title": "Allegheny Treenware",
-		"client": "Allegheny Treenwre, LLC"
+		"client": "Allegheny Treenware, LLC"
       },
 			"info": {
 				"keywords" : "WordPress, WooCommerce, Stripe, WooThemes, customized WordPress theme",
@@ -186,7 +273,7 @@
         "description": ""
       },
       "location": {
-        "url": "https://rclub.countryliving.com"
+        "url": "https://club.countryliving.com"
       },
       "email": "",
       "registered": {
