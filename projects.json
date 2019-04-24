@@ -11,7 +11,7 @@
         "description": "This is a web app dashboard demonstration. The project includes various JavaScript techniques and functionality and utilizes CSS Grid and flexbox."
       },
       "location": {
-        "url": "https://github.com/sbahns/web-app-dashboard"
+        "url": "https://sbahns.github.io/web-app-dashboard"
       },
       "email": "N/A",
       "registered": {
@@ -24,9 +24,9 @@
         "value": "12117533884"
       },
       "picture": {
-        "large": "/images/screencaptures/screencapture-7.png",
-        "medium": "/images/screencaptures/med/screencapture-7.png",
-        "thumbnail": "/images/screencaptures/thumb/screencapture-7.png"
+        "large": "images/screencaptures/screencapture-7.png",
+        "medium": "images/screencaptures/med/screencapture-7.png",
+        "thumbnail": "images/screencaptures/thumb/screencapture-7.png"
       }
     },
 	{
@@ -40,7 +40,7 @@
 			"description": "This is a demonstration of an employee directory that pulls in JSON data using fetch API."
 		},
 		"location": {
-			"url": "https://github.com/sbahns/employee-directory"
+			"url": "https://sbahns.github.io/employee-directory"
 		},
 		"email": "N/A",
 		"registered": {
@@ -53,9 +53,9 @@
 			"value": "12117533888"
 		},
 		"picture": {
-			"large": "/images/screencaptures/screencapture-8.png",
-			"medium": "/images/screencaptures/med/screencapture-8.png",
-			"thumbnail": "/images/screencaptures/thumb/screencapture-8.png"
+			"large": "images/screencaptures/screencapture-8.png",
+			"medium": "images/screencaptures/med/screencapture-8.png",
+			"thumbnail": "images/screencaptures/thumb/screencapture-8.png"
 		}
 	},
 	{
@@ -69,7 +69,7 @@
 			"description": "This is a demonstration JavaScript app where the user guesses the phrases listed in an array."
 		},
 		"location": {
-			"url": "https://github.com/sbahns/game-show-app"
+			"url": "https://sbahns.github.io/game-show-app"
 		},
 		"email": "N/A",
 		"registered": {
@@ -82,9 +82,9 @@
 			"value": "12117533888"
 		},
 		"picture": {
-			"large": "/images/screencaptures/screencapture-6.png",
-			"medium": "/images/screencaptures/med/screencapture-6.png",
-			"thumbnail": "/images/screencaptures/thumb/screencapture-6.png"
+			"large": "images/screencaptures/screencapture-6.png",
+			"medium": "images/screencaptures/med/screencapture-6.png",
+			"thumbnail": "images/screencaptures/thumb/screencapture-6.png"
 		}
 	},
 	{
@@ -98,7 +98,7 @@
 			"description": "This is a demo jQuery-based photo gallery with search."
 		},
 		"location": {
-			"url": "https://github.com/sbahns/photo-gallery-project"
+			"url": "https://sbahns.github.io/photo-gallery-project"
 		},
 		"email": "N/A",
 		"registered": {
@@ -111,9 +111,9 @@
 			"value": "12117533889"
 		},
 		"picture": {
-			"large": "/images/screencaptures/screencapture-5b.png",
-			"medium": "/images/screencaptures/med/screencapture-5b.png",
-			"thumbnail": "/images/screencaptures/thumb/screencapture-5b.png"
+			"large": "images/screencaptures/screencapture-5b.png",
+			"medium": "images/screencaptures/med/screencapture-5b.png",
+			"thumbnail": "images/screencaptures/thumb/screencapture-5b.png"
 		}
 	},
 	{
@@ -127,7 +127,7 @@
 			"description": "This is a demo of a basic HTML form."
 		},
 		"location": {
-			"url": "https://github.com/sbahns/html-form-project"
+			"url": "https://sbahns.github.io/html-form-project"
 		},
 		"email": "N/A",
 		"registered": {
@@ -140,9 +140,9 @@
 			"value": "12117533890"
 		},
 		"picture": {
-			"large": "/images/screencaptures/screencapture-3.png",
-			"medium": "/images/screencaptures/med/screencapture-3.png",
-			"thumbnail": "/images/screencaptures/thumb/screencapture-3.png"
+			"large": "images/screencaptures/screencapture-3.png",
+			"medium": "images/screencaptures/med/screencapture-3.png",
+			"thumbnail": "images/screencaptures/thumb/screencapture-3.png"
 		}
 	},
 	{
@@ -170,9 +170,9 @@
 		"value": "12117533885"
 	  },
 	  "picture": {
-		"large": "/images/screencaptures/screencapture-dev-tygart-com-1.jpg",
-		"medium": "/images/screencaptures/med/screencapture-dev-tygart-com-1.jpg",
-		"thumbnail": "/images/screencaptures/thumb/screencapture-dev-tygart-com-1.jpg"
+		"large": "images/screencaptures/screencapture-dev-tygart-com-1.jpg",
+		"medium": "images/screencaptures/med/screencapture-dev-tygart-com-1.jpg",
+		"thumbnail": "images/screencaptures/thumb/screencapture-dev-tygart-com-1.jpg"
 	  }
 	},
 	{
@@ -199,9 +199,9 @@
         "value": "12117533881"
       },
       "picture": {
-        "large": "/images/screencaptures/screencapture-alleghenytreenware.png",
-        "medium": "/images/screencaptures/med/screencapture-alleghenytreenware.png",
-        "thumbnail": "/images/screencaptures/thumb/screencapture-alleghenytreenware.png"
+        "large": "images/screencaptures/screencapture-alleghenytreenware.png",
+        "medium": "images/screencaptures/med/screencapture-alleghenytreenware.png",
+        "thumbnail": "images/screencaptures/thumb/screencapture-alleghenytreenware.png"
       }
     },
 	{
@@ -228,9 +228,9 @@
 		"value": "12117533882"
 	  },
 	  "picture": {
-		"large": "/images/screencaptures/screencapture-redbonemining.png",
-		"medium": "/images/screencaptures/med/screencapture-redbonemining.png",
-		"thumbnail": "/images/screencaptures/thumb/screencapture-redbonemining.png"
+		"large": "images/screencaptures/screencapture-redbonemining.png",
+		"medium": "images/screencaptures/med/screencapture-redbonemining.png",
+		"thumbnail": "images/screencaptures/thumb/screencapture-redbonemining.png"
 	  }
 	},
 	{
@@ -257,9 +257,9 @@
         "value": "12117533886"
       },
       "picture": {
-        "large": "/images/screencaptures/screencapture-aaa.png",
-        "medium": "/images/screencaptures/med/screencapture-aaa.png",
-        "thumbnail": "/images/screencaptures/thumb/screencapture-aaa.png"
+        "large": "images/screencaptures/screencapture-aaa.png",
+        "medium": "images/screencaptures/med/screencapture-aaa.png",
+        "thumbnail": "images/screencaptures/thumb/screencapture-aaa.png"
       }
     },
 	{
@@ -286,9 +286,9 @@
         "value": "12117533887"
       },
       "picture": {
-        "large": "/images/screencaptures/screencapture-club-countryliving.png",
-        "medium": "/images/screencaptures/med/screencapture-club-countryliving.png",
-        "thumbnail": "/images/screencaptures/thumb/screencapture-club-countryliving.png"
+        "large": "images/screencaptures/screencapture-club-countryliving.png",
+        "medium": "images/screencaptures/med/screencapture-club-countryliving.png",
+        "thumbnail": "images/screencaptures/thumb/screencapture-club-countryliving.png"
       }
     },
 	{
@@ -315,9 +315,9 @@
         "value": "12117533888"
       },
       "picture": {
-        "large": "/images/screencaptures/screencapture-ynk.png",
-        "medium": "/images/screencaptures/med/screencapture-ynk.png",
-        "thumbnail": "/images/screencaptures/thumb/screencapture-ynk.png"
+        "large": "images/screencaptures/screencapture-ynk.png",
+        "medium": "images/screencaptures/med/screencapture-ynk.png",
+        "thumbnail": "images/screencaptures/thumb/screencapture-ynk.png"
       }
     },
 		{
@@ -344,9 +344,9 @@
 				"value": "12117533889"
 			},
 			"picture": {
-				"large": "/images/screencaptures/screencapture-entertainmentcentralpittsburgh.png",
-				"medium": "/images/screencaptures/med/screencapture-entertainmentcentralpittsburgh.png",
-				"thumbnail": "/images/screencaptures/thumb/screencapture-entertainmentcentralpittsburgh.png"
+				"large": "images/screencaptures/screencapture-entertainmentcentralpittsburgh.png",
+				"medium": "images/screencaptures/med/screencapture-entertainmentcentralpittsburgh.png",
+				"thumbnail": "images/screencaptures/thumb/screencapture-entertainmentcentralpittsburgh.png"
 			}
 		}
   ]
