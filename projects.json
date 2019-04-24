@@ -8,7 +8,8 @@
       },
 		"info": {
 		"keywords" : "JavaScript, charts.js, CSS Grid",
-        "description": "This is a web app dashboard demonstration. The project includes various JavaScript techniques and functionality and utilizes CSS Grid and flexbox."
+        "description": "This is a web app dashboard demonstration. The project includes various JavaScript techniques and functionality and utilizes CSS Grid and flexbox.",
+		"role": "Front End development (JavaScript, HTML, CSS/SCSS)"
       },
       "location": {
         "url": "https://sbahns.github.io/web-app-dashboard"
@@ -37,7 +38,8 @@
 		},
 		"info": {
 			"keywords" : "JavaScript, JSON, fetch API, CSS Grid, Sass",
-			"description": "This is a demonstration of an employee directory that pulls in JSON data using fetch API."
+			"description": "This is a demonstration of an employee directory that pulls in JSON data using fetch API.",
+			"role": "Front End development (JavaScript, JSON, HTML, CSS/SCSS)"
 		},
 		"location": {
 			"url": "https://sbahns.github.io/employee-directory"
@@ -66,7 +68,8 @@
 		},
 		"info": {
 			"keywords" : "JavaScript",
-			"description": "This is a demonstration JavaScript app where the user guesses the phrases listed in an array."
+			"description": "This is a demonstration JavaScript app where the user guesses the phrases listed in an array.",
+			"role": "JavaScript development"
 		},
 		"location": {
 			"url": "https://sbahns.github.io/game-show-app"
@@ -95,7 +98,8 @@
 		},
 		"info": {
 			"keywords" : "jQuery, CSS, Sass",
-			"description": "This is a demo jQuery-based photo gallery with search."
+			"description": "This is a demo jQuery-based photo gallery with search.",
+			"role": "Front End development (jQuery, HTML, CSS/SCSS)"
 		},
 		"location": {
 			"url": "https://sbahns.github.io/photo-gallery-project"
@@ -124,7 +128,8 @@
 		},
 		"info": {
 			"keywords" : "HTML forms, CSS, Sass",
-			"description": "This is a demo of a basic HTML form."
+			"description": "This is a demo of a basic HTML form.",
+			"role": "Front End development (HTML, CSS/SCSS)"
 		},
 		"location": {
 			"url": "https://sbahns.github.io/html-form-project"
@@ -334,7 +339,7 @@
 			"info": {
 				"keywords" : "WordPress, custom WordPress theme",
 				"description": "This is a client I've supported since 2012. The client wanted to create an entertainment site focused on Pittsburgh, PA. One of the project requirements was to use black, Ferrari yellow, and Ferrari red for the site colors.",
-				 "role": "UX design and Front End implementation."
+				 "role": "UX design and Front End development."
 			},
 			"location": {
 				"url": "https://entertainmentcentralpittsburgh.com"
