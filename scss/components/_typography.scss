@@ -20,16 +20,29 @@ h1 {
   	font-size: em(28px);
 }
 
-#about {
+#hero {
 	h1 {
-		font-size: em(48px);
+		text-align: right;
+		font-size: 2.5em;
+	}
+
+	mark {
+		background: $white;
+		color: $charcoal;
 	}
 }
 
 h2 {
 	color: color(secondary);
 	margin: 0;
-	font-size: em(24px);
+	font-size: em(28px);
+}
+
+section {
+	h2 {
+		text-align: center;
+		margin: 15px auto;
+	}
 }
 
 h3 {
@@ -40,11 +53,18 @@ h3 {
 
 p {
 	margin: 0;
+	margin-bottom: 1rem;
 }
 
 .project-info {
 	word-break: break-word;
 	.name {
 		text-transform: uppercase;
+		
 	}
+}
+
+i {
+	font-size: 32px;
+	padding: 5px;
 }

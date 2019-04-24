@@ -6,12 +6,16 @@
 	box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 p {
 
 }
 
 a {
-	font-weight: 300;
+	color: $blue;
 	text-decoration: none;
 }
 

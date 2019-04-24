@@ -26,6 +26,10 @@ section {
 		.cell {
 			display: flex;
 			flex-direction: column;
+
+			p {
+				margin-bottom: 0;
+			}
 		}
 	}
 }
@@ -72,7 +76,6 @@ section {
     min-height: 1px;
     padding-left: 10px;
     padding-right: 10px;
-	text-align: center;
     &:last-of-type {
       float: right;
     }

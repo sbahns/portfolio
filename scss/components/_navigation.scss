@@ -2,21 +2,20 @@
 nav {
 	align-items: center;
 	justify-content: center;
+
 	ul {
+		font-weight: bold;
 		margin:0;
 		list-style-type: none;
 		display: flex;
-    	flex-direction: row;
+    flex-direction: row;
 		justify-content: space-around;
 		align-content: center;
-		color: $white;
+
 		li {
 			float: left;
 			padding: 10px;
 
-			a {
-				color: $white;
-			}
 			&.active, &:hover {
 				cursor: pointer;
 			}
@@ -24,9 +23,33 @@ nav {
 	}
 }
 
+header {
+	&.white {
+		nav {
+				a {
+					color: $blue;
+					&:hover, &:active {
+						color: $charcoal;
+					}
+				}
+			}
+	}
+	&.blue {
+			nav {
+		a {
+			color: $white;
+			&:hover, &:active {
+				color: $charcoal;
+			}
+		}
+	}
+	}
+}
+
 @media (min-width: 768px) {
 	nav {
 		ul {
+			margin:15px 0;
 			li {
 				&.active, &:hover {
 				}

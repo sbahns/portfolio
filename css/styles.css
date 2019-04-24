@@ -416,8 +416,11 @@ th {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+html {
+  scroll-behavior: smooth; }
+
 a {
-  font-weight: 300;
+  color: #3fabca;
   text-decoration: none; }
 
 ul {
@@ -446,6 +449,8 @@ section .grid {
   section .grid .cell {
     display: flex;
     flex-direction: column; }
+    section .grid .cell p {
+      margin-bottom: 0; }
 
 .container {
   display: flex;
@@ -505,8 +510,7 @@ section .grid {
     float: left;
     min-height: 1px;
     padding-left: 10px;
-    padding-right: 10px;
-    text-align: center; }
+    padding-right: 10px; }
     [class^="col"]:last-of-type {
       float: right; } }
 
@@ -553,13 +557,21 @@ h1 {
   margin: 0;
   font-size: 1.75em; }
 
-#about h1 {
-  font-size: 3em; }
+#hero h1 {
+  text-align: right;
+  font-size: 2.5em; }
+#hero mark {
+  background: #ffffff;
+  color: #333333; }
 
 h2 {
   color: #404a51;
   margin: 0;
-  font-size: 1.5em; }
+  font-size: 1.75em; }
+
+section h2 {
+  text-align: center;
+  margin: 15px auto; }
 
 h3 {
   color: #404a51;
@@ -567,12 +579,17 @@ h3 {
   font-size: 1.25em; }
 
 p {
-  margin: 0; }
+  margin: 0;
+  margin-bottom: 1rem; }
 
 .project-info {
   word-break: break-word; }
   .project-info .name {
     text-transform: uppercase; }
+
+i {
+  font-size: 32px;
+  padding: 5px; }
 
 /*--------------------------------------------------
 :: Navigation styles
@@ -581,21 +598,31 @@ nav {
   align-items: center;
   justify-content: center; }
   nav ul {
+    font-weight: bold;
     margin: 0;
     list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-content: center;
-    color: #ffffff; }
+    align-content: center; }
     nav ul li {
       float: left;
       padding: 10px; }
-      nav ul li a {
-        color: #ffffff; }
       nav ul li.active, nav ul li:hover {
         cursor: pointer; }
 
+header.white nav a {
+  color: #3fabca; }
+  header.white nav a:hover, header.white nav a:active {
+    color: #333333; }
+header.blue nav a {
+  color: #ffffff; }
+  header.blue nav a:hover, header.blue nav a:active {
+    color: #333333; }
+
+@media (min-width: 768px) {
+  nav ul {
+    margin: 15px 0; } }
 #socialprofiles a {
   color: #333333; }
 
@@ -615,33 +642,65 @@ img {
   height: auto;
   display: block; }
 
-header .logo svg {
+header.white .logo svg {
   width: 100%;
   max-width: 70px; }
-  header .logo svg .cls-1, header .logo svg .cls-3 {
+  header.white .logo svg .cls-1, header.white .logo svg .cls-3 {
     fill: #ffffff; }
-  header .logo svg .cls-1 {
-    stroke: #57565a;
+  header.white .logo svg .cls-1 {
+    stroke: #3fabca;
     stroke-width: 2.44px; }
-  header .logo svg .cls-2 {
-    fill: #333333; }
-  header .logo svg .cls-4 {
+  header.white .logo svg .cls-2 {
+    fill: #3fabca; }
+  header.white .logo svg .cls-4 {
     fill: none;
     stroke: #ffffff;
     stroke-linecap: round;
     stroke-width: 2.65px; }
-  header .logo svg:hover {
+  header.white .logo svg:hover {
     transition: transform 1s ease-in-out;
     transform: rotate(360deg);
     cursor: pointer; }
-    header .logo svg:hover .cls-1, header .logo svg:hover .cls-3 {
+    header.white .logo svg:hover .cls-1, header.white .logo svg:hover .cls-3 {
       fill: #ffffff; }
-    header .logo svg:hover .cls-1 {
+    header.white .logo svg:hover .cls-1 {
+      stroke: #57565a;
+      stroke-width: 2.44px; }
+    header.white .logo svg:hover .cls-2 {
+      fill: #333333; }
+    header.white .logo svg:hover .cls-4 {
+      fill: none;
+      stroke: #ffffff;
+      stroke-linecap: round;
+      stroke-width: 2.65px; }
+
+header.blue .logo svg {
+  width: 100%;
+  max-width: 70px; }
+  header.blue .logo svg .cls-1, header.blue .logo svg .cls-3 {
+    fill: #ffffff; }
+  header.blue .logo svg .cls-1 {
+    stroke: #57565a;
+    stroke-width: 2.44px; }
+  header.blue .logo svg .cls-2 {
+    fill: #333333; }
+  header.blue .logo svg .cls-4 {
+    fill: none;
+    stroke: #ffffff;
+    stroke-linecap: round;
+    stroke-width: 2.65px; }
+  header.blue .logo svg:hover {
+    transition: transform 1s ease-in-out;
+    transform: rotate(360deg);
+    cursor: pointer; }
+    header.blue .logo svg:hover .cls-1, header.blue .logo svg:hover .cls-3 {
+      fill: #ffffff; }
+    header.blue .logo svg:hover .cls-1 {
       stroke: #3fabca;
       stroke-width: 2.44px; }
-    header .logo svg:hover .cls-2 {
+    header.blue .logo svg:hover .cls-2 {
       fill: #3fabca; }
-    header .logo svg:hover .cls-4 {
+    header.blue .logo svg:hover .cls-4 {
       fill: none;
       stroke: #ffffff;
       stroke-linecap: round;
@@ -725,7 +784,11 @@ input[type=submit] {
 header {
   position: fixed;
   width: 100%;
-  background-color: #3fabca; }
+  box-shadow: 0 1px 5px #333; }
+  header.white {
+    background-color: #ffffff; }
+  header.blue {
+    background-color: #3fabca; }
   header .logo {
     text-align: center; }
     @media (min-width: 768px) {
@@ -733,33 +796,44 @@ header {
         text-align: left; } }
 
 section {
-  display: flex;
-  padding-top: 150px;
-  padding-bottom: 150px; }
-  section#about {
-    align-items: center;
-    justify-content: center;
-    background: url("../images/retro-gardener-full-screen.jpg") no-repeat right top;
+  display: flex; }
+  section#hero {
+    align-items: flex-end;
+    background: url("../images/cherry-blossoms.jpg") no-repeat right top;
     background-size: cover;
     height: 100vh;
-    min-height: 100vh; }
-  section#portfolio .grid .cell .card {
-    text-align: center;
-    background-color: #ffffff;
-    border: solid 2px #efe0e0;
-    padding: 20px;
-    margin-bottom: 24px;
-    width: 100%; }
-    section#portfolio .grid .cell .card .project {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: center; }
-    section#portfolio .grid .cell .card:hover {
-      border: solid 2px #3fabca;
-      box-shadow: 1px 1px 5px #3fabca;
-      transition: all 1s;
-      cursor: pointer; }
+    min-height: 100vh;
+    padding-bottom: 50px; }
+  section#about {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: left; }
+  section#portfolio {
+    padding-top: 150px;
+    padding-bottom: 50px;
+    border-top: 1px solid #efe0e0;
+    border-bottom: 1px solid #efe0e0; }
+    section#portfolio .grid .cell .card {
+      text-align: center;
+      background-color: #ffffff;
+      border: solid 2px #efe0e0;
+      padding: 20px;
+      margin-bottom: 24px;
+      width: 100%; }
+      section#portfolio .grid .cell .card .project {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center; }
+        section#portfolio .grid .cell .card .project .url {
+          font-size: .8rem; }
+      section#portfolio .grid .cell .card:hover {
+        border: solid 2px #3fabca;
+        box-shadow: 1px 1px 5px #3fabca;
+        transition: all 1s;
+        cursor: pointer; }
+  section#contact {
+    padding-top: 150px; }
 
 .modal {
   position: fixed;
@@ -791,13 +865,11 @@ section {
     border: 2px solid #cccccc;
     width: 100%;
     /* This just a default width */ }
-    .modal .modal_content .card {
-      text-align: center; }
-      .modal .modal_content .card .project {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center; }
+    .modal .modal_content .card .project {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center; }
   .modal .close_modal {
     color: #404a51;
     position: absolute;
@@ -851,13 +923,14 @@ section {
       border: 2px solid #cccccc;
       width: 90%;
       /* This just a default width */ }
-      .modal .modal_content .card {
-        text-align: center; }
-        .modal .modal_content .card .project {
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          align-items: center; }
+      .modal .modal_content .card .project {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center; }
+        .modal .modal_content .card .project .project-info .name {
+          font-size: 1.5em;
+          padding-top: 20px; }
     .modal .close_modal {
       color: #404a51;
       position: absolute;
@@ -905,13 +978,11 @@ section {
       border: 2px solid #cccccc;
       width: 1024px;
       /* This just a default width */ }
-      .modal .modal_content .card {
-        text-align: center; }
-        .modal .modal_content .card .project {
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          align-items: center; }
+      .modal .modal_content .card .project {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center; }
     .modal .close_modal {
       color: #404a51;
       position: absolute;
@@ -925,5 +996,9 @@ section {
       text-align: right; }
     .modal .close_modal:hover {
       opacity: 0.9; } }
+footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center; }
 
 /*# sourceMappingURL=styles.css.map */

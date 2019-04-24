@@ -8,10 +8,11 @@
 		<link rel="stylesheet" href="css/styles.css">
 	</head>
 
-	<body>
-		<header id="home">
+	<body id="home">
+		<header class="blue">
 			<div class="row">
 				<div class="col-4 logo">
+					<a href="#home">
 					<svg id="srbweb_logo" data-name="srbweb_logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 261.67 261.67">
 						<title>Sarah Barnes Web logo</title>
 						<circle class="cls-1" cx="183.58" cy="193.75" r="129.61" transform="translate(-95.08 272.96) rotate(-78.72)"/>
@@ -22,9 +23,10 @@
 						<line class="cls-4" x1="108.09" y1="186.72" x2="231.17" y2="186.72"/>
 						<line class="cls-4" x1="97.39" y1="198.02" x2="224.04" y2="198.02"/>
 					</svg>
+					</a>
 				</div>
 				<div class="col-8">
-					<nav class="">
+					<nav class="navigation">
 						<ul class="menu">
 							<li class="menu-item">
 								<a href="#home">Home</a>
@@ -36,24 +38,52 @@
 								<a href="#portfolio">Portfolio</a>
 							</li>
 							<li class="menu-item">
-								<a href="#contract">Contact</a>
+								<a href="#contact">Contact</a>
 							</li>
 						</ul>
 					</nav>
 				</div>
 			</div>
 		</header>
-		<section id="about">
+		<section id="hero">
 			<div class="container">
 				<div class="row">
-					<div class="col-9">
-						<div id="about-content" class="animated fadeIn" style="display: block;">
-							<h1 id="headline">Hello my name is Sarah and I am a Front End Developer/UX Designer in Morgantown, West Virginia.</p>
+					<div class="col-12">
+						<div id="about-content">
+							<h1 id="headline"><span style="background-color: #FFF; padding-left: 10px;padding-right: 10px;"> Hello my name is Sarah. <br /> I am a Front End Developer / UX Designer in <br /> Morgantown, West Virginia. </span></p>
 						</div><!-- end of #about-content -->
 					</div>
 				</div>
 			</div>
 		</section>
+		<section id="about" class="container">
+			<h2>About Me</h2>
+			<div class="row">
+			<div class="col-3">
+				<div id="about-content" class="animated fadeIn" style="display: block;">
+					<img id="profile-image" src="https://sarahbarnesweb.com/wp-content/uploads/2019/04/me-round.png">
+				</div>
+				<div id="socialprofiles">
+					<a href="https://www.linkedin.com/in/sarahbarnes/" target="_blank" data-external="true"><i class="fab fa-linkedin"></i></a>
+					<a href="https://github.com/sbahns" target="_blank"><i class="fab fa-github"></i></a>
+					<a href="https://dribbble.com/srbarnes" target="_blank"><i class="fab fa-dribbble-square"></i></a>
+					<a href="https://www.facebook.com/sarahbarnesweb/" target="_blank"><i class="fab fa-facebook"></i></a>
+					<a href="https://twitter.com/srbarnes" target="_blank"><i class="fab fa-twitter-square"></i></a>
+					<a href="tel:+13045549075?call" target="_blank"><i class="fas fa-phone"></i></a>
+					<a href="mailto:sarah@sarahbarnesweb.com" target="_blank"><i class="fas fa-envelope"></i></a>
+			</div>
+		</div>
+		<div class="col-9">
+			<p>I am currently working as a freelance front end web developer / ux designer. I've been in this field for over 20 years developing websites for small businesses, higher education, events, state and federal government projects, non-profits, and programs.</p>
+
+			<p>The bulk of my work the last 6 years has been in working as part of a distributed team of contractors working for an agency out of Boston. So I am very comfortable in working with distributed teams and working on Scrum teams and using Git, Jira, Confluence, Slack, and Zoom to collaborate. The vast majority of my work is in developing custom themes and collaborating on plugins for WordPress, but I have worked with other platforms as well. I am a strong team player and am well-regarded for my ability to get things done, meet deadlines, and coordinate many types of projects. </p>
+
+			<p>My skillset includes CSS, HTML, PHP, WordPress, JavaScript, jQuery, Git, UI/UX, W3C, responsive frameworks (Foundation, Bootstrap), JIRA and the Atlassian suite of tools, BaseCamp, Asana, Plesk, cPanel, and other hosting admin tools, XML, Section 508 ADA standards.</p>
+
+			<p>I also have experience with teaching, print layout, graphic design, writing, campaigns and other public relations-related skills.</p>
+		</div>
+		</div>
+	</section>
 		<section id="portfolio" class="container">
 			<h2>Portfolio</h2>
 			<div class="grid"></div>
@@ -67,25 +97,23 @@
 			</div>
 		</section>
 		<section id="contact" class="container">
-			<div class="col-1">
-				<div id="about-content" class="animated fadeIn" style="display: block;">
-					<img id="profile-image" src="https://sarahbarnesweb.com/wp-content/uploads/2019/04/me-round.png">
+			<h2>Contact</h2>
+			<div class="row">
+			<div class="col-6">
+				<div id="socialprofiles">
+					<a href="https://www.linkedin.com/in/sarahbarnes/" target="_blank" data-external="true"><i class="fab fa-linkedin"></i></a>
+					<a href="https://github.com/sbahns" target="_blank"><i class="fab fa-github"></i></a>
+					<a href="https://dribbble.com/srbarnes" target="_blank"><i class="fab fa-dribbble-square"></i></a>
+					<a href="https://www.facebook.com/sarahbarnesweb/" target="_blank"><i class="fab fa-facebook"></i></a>
+					<a href="https://twitter.com/srbarnes" target="_blank"><i class="fab fa-twitter-square"></i></a>
+					<a href="tel:+13045549075?call" target="_blank"><i class="fas fa-phone"></i></a>
+					<a href="mailto:sarah@sarahbarnesweb.com" target="_blank"><i class="fas fa-envelope"></i></a>
 				</div>
 			</div>
-			<div class="col-11">
-				<div id="socialprofiles">
-					<a href="https://www.linkedin.com/in/sarahbarnes/" target="_blank" data-external="true" data-unsp-sanitized="clean"><i class="fa fa-linkedin fa-2x"></i></a>
-					<a href="https://github.com/sbahns" target="_blank" data-external="true" data-unsp-sanitized="clean"><i class="fa fa-github fa-2x"></i></a>
-					<a href="https://dribbble.com/srbarnes" target="_blank" data-external="true" data-unsp-sanitized="clean"><i class="fa fa-dribbble fa-2x"></i></a>
-					<a href="https://www.facebook.com/sarahbarnesweb/" target="_blank" data-external="true" data-unsp-sanitized="clean"><i class="fa fa-facebook-official fa-2x"></i></a>
-					<a href="https://twitter.com/srbarnes" target="_blank" data-external="true" data-unsp-sanitized="clean"><i class="fa fa-twitter fa-2x"></i></a>
-					<a href="tel:+13045549075?call" target="_blank" data-external="true" data-unsp-sanitized="clean"><i class="fa fa-phone fa-2x"></i></a>
-					<a href="mailto:sarah@sarahbarnesweb.com" target="_blank" data-unsp-sanitized="clean"><i class="fa fa-envelope fa-2x"></i></a>
-				</div>
 			</div>
 		</section>
 		<footer id="footer" class="container">
-
+			&copy; 2019, Sarah Barnes Web, LLC
 		</footer>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
