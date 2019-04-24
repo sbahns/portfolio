@@ -181,10 +181,11 @@
         "title": "Allegheny Treenware",
 		"client": "Allegheny Treenware, LLC"
       },
-			"info": {
-				"keywords" : "WordPress, WooCommerce, Stripe, WooThemes, customized WordPress theme",
-        "description": "This is a client I've supported since 1998. Their website has undergone many changes over the years, but they are a very successful local business that makes a unique handmade product and does the majority of their retail business online."
-      },
+		"info": {
+		"keywords" : "WordPress, WooCommerce, Stripe, WooThemes, customized WordPress theme",
+        "description": "This is a client I've supported since 1998. Their website has undergone many changes over the years, but they are a very successful local business that makes a unique handmade product and does the majority of their retail business online.",
+		"role": "eCommerce site configuration, theme customization, site support"
+	  },
       "location": {
         "url": "https://alleghenytreenware.com"
       },
@@ -212,7 +213,8 @@
 	  },
 			"info": {
 				"keywords" : "WordPress, custom WordPress theme",
-		"description": ""
+				"description": "This is a client I've supported since 1998. Their website has undergone many changes over the years, but they are a very successful local business that makes a unique handmade product and does the majority of their retail business online.",
+		 "role":  "UX design, front end development and design implementation."
 	  },
 	  "location": {
 		"url": "https://redbonemining.com"
@@ -241,7 +243,8 @@
       },
 	  "info": {
 			"keywords" : "WordPress, custom WordPress theme",
-        	"description": ""
+			"description":"",
+        	 "role":  "Front end development and design implementation."
       },
       "location": {
         "url": "https://magazine.northeast.aaa.com"
@@ -269,13 +272,14 @@
 		"client": "Mequoda Systems"
       },
 			"info": {
-				"keywords" : "WordPress, custom WordPress theme",
-        "description": ""
+		"keywords" : "WordPress, custom WordPress theme",
+		"description":"",
+         "role":  "Front end development and design implementation."
       },
       "location": {
         "url": "https://club.countryliving.com"
       },
-      "email": "",
+      "email": "N/A",
       "registered": {
         "year": "2018",
         "age": 1
@@ -299,17 +303,18 @@
       },
 			"info": {
 				"keywords" : "WordPress, custom WordPress theme",
-        "description": ""
+				"description":"",
+         "role": "Front end development and design implementation."
       },
       "location": {
         "url": "https://newengland.com"
       },
-      "email": "",
+      "email": "N/A",
       "registered": {
         "year": "2016",
         "age": 3
       },
-      "phone": "",
+      "phone": "N/A",
       "id": {
         "name": "MEQ",
         "value": "12117533888"
@@ -328,17 +333,18 @@
 			},
 			"info": {
 				"keywords" : "WordPress, custom WordPress theme",
-				"description": ""
+				"description": "This is a client I've supported since 2012. The client wanted to create an entertainment site focused on Pittsburgh, PA. One of the project requirements was to use black, Ferrari yellow, and Ferrari red for the site colors.",
+				 "role": "UX design and Front End implementation."
 			},
 			"location": {
 				"url": "https://entertainmentcentralpittsburgh.com"
 			},
-			"email": "",
+			"email": "N/A",
 			"registered": {
 				"year": "2012",
 				"age": 7
 			},
-			"phone": "",
+			"phone": "N/A",
 			"id": {
 				"name": "EC",
 				"value": "12117533889"
