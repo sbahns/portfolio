@@ -615,16 +615,20 @@ nav {
       nav ul li.active, nav ul li:hover {
         cursor: pointer; }
         nav ul li.active a, nav ul li:hover a {
-          color: #333333; }
+          color: #057B9C; }
 
 header.white nav a {
   color: #3fabca; }
   header.white nav a:hover, header.white nav a:active {
     color: #333333; }
+header.blue-charcoal nav a {
+  color: #ffffff; }
+  header.blue-charcoal nav a:hover, header.blue-charcoal nav a:active {
+    color: #333333; }
 header.blue nav a {
   color: #ffffff; }
   header.blue nav a:hover, header.blue nav a:active {
-    color: #333333; }
+    color: #057B9C; }
 
 @media (min-width: 768px) {
   nav ul {
@@ -680,16 +684,48 @@ header.white .logo svg {
       stroke-linecap: round;
       stroke-width: 2.65px; }
 
+header.blue-charcoal .logo svg {
+  width: 100%;
+  max-width: 70px; }
+  header.blue-charcoal .logo svg .cls-1, header.blue-charcoal .logo svg .cls-3 {
+    fill: #ffffff; }
+  header.blue-charcoal .logo svg .cls-1 {
+    stroke: #57565a;
+    stroke-width: 2.44px; }
+  header.blue-charcoal .logo svg .cls-2 {
+    fill: #333333; }
+  header.blue-charcoal .logo svg .cls-4 {
+    fill: none;
+    stroke: #ffffff;
+    stroke-linecap: round;
+    stroke-width: 2.65px; }
+  header.blue-charcoal .logo svg:hover {
+    transition: transform 1s ease-in-out;
+    transform: rotate(360deg);
+    cursor: pointer; }
+    header.blue-charcoal .logo svg:hover .cls-1, header.blue-charcoal .logo svg:hover .cls-3 {
+      fill: #ffffff; }
+    header.blue-charcoal .logo svg:hover .cls-1 {
+      stroke: #3fabca;
+      stroke-width: 2.44px; }
+    header.blue-charcoal .logo svg:hover .cls-2 {
+      fill: #3fabca; }
+    header.blue-charcoal .logo svg:hover .cls-4 {
+      fill: none;
+      stroke: #ffffff;
+      stroke-linecap: round;
+      stroke-width: 2.65px; }
+
 header.blue .logo svg {
   width: 100%;
   max-width: 70px; }
   header.blue .logo svg .cls-1, header.blue .logo svg .cls-3 {
     fill: #ffffff; }
   header.blue .logo svg .cls-1 {
-    stroke: #57565a;
+    stroke: #057B9C;
     stroke-width: 2.44px; }
   header.blue .logo svg .cls-2 {
-    fill: #333333; }
+    fill: #057B9C; }
   header.blue .logo svg .cls-4 {
     fill: none;
     stroke: #ffffff;

@@ -19,7 +19,7 @@ nav {
 			&.active, &:hover {
 				cursor: pointer;
 				a {
-					color: $charcoal;
+					color: $dark-blue;
 				}
 			}
 		}
@@ -37,12 +37,22 @@ header {
 				}
 			}
 	}
-	&.blue {
+	&.blue-charcoal {
 			nav {
 		a {
 			color: $white;
 			&:hover, &:active {
 				color: $charcoal;
+			}
+		}
+	}
+	}
+	&.blue {
+			nav {
+		a {
+			color: $white;
+			&:hover, &:active {
+				color: $dark-blue;
 			}
 		}
 	}
