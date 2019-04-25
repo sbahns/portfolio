@@ -89,7 +89,7 @@ function projectModal(array, index) {
 			X
 		</button>
 		<div class="card" data-id="${index}">
-			<div class="user">
+			<div class="project">
 				<div class="thumbnail">
 					<img src='${array[index].picture.large}' alt='Screenshot of ${array[index].name.title}' />
 				</div>
@@ -100,10 +100,8 @@ function projectModal(array, index) {
 					<div class="url">
 						<p><a href="${array[index].location.url}" target="_blank">${array[index].location.url}</a></p>
 					</div>
-					<div class="date">
-						<p><strong>Client Since:</strong> ${array[index].registered.year}</p>
-					</div>
 					<div class="description">
+						<p><strong>Project Type:</strong> ${array[index].type}</p>
 						<p><strong>Project Description:</strong> ${array[index].info.description}</p>
 						<p><strong>What I Did:</strong> ${array[index].info.role}</p>
 						<p><strong>Keywords:</strong> ${array[index].info.keywords}</p>

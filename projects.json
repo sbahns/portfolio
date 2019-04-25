@@ -4,15 +4,15 @@
       "type": "demo",
       "name": {
         "title": "Web App Dashboard",
-		"client": "N/A"
+				"client": "N/A"
       },
 		"info": {
 		"keywords" : "JavaScript, charts.js, CSS Grid",
-        "description": "This is a web app dashboard demonstration. The project includes various JavaScript techniques and functionality and utilizes CSS Grid and flexbox.",
+    "description": "This is a web app dashboard demonstration. The project includes various JavaScript techniques and functionality and utilizes CSS Grid and flexbox.",
 		"role": "Front End development (JavaScript, HTML, CSS/SCSS)"
       },
       "location": {
-        "url": "https://sbahns.github.io/web-app-dashboard"
+        "url": "https://github.com/sbahns/web-app-dashboard"
       },
       "email": "N/A",
       "registered": {
@@ -42,7 +42,7 @@
 			"role": "Front End development (JavaScript, JSON, HTML, CSS/SCSS)"
 		},
 		"location": {
-			"url": "https://sbahns.github.io/employee-directory"
+			"url": "https://github.com/sbahns/employee-directory"
 		},
 		"email": "N/A",
 		"registered": {
@@ -72,7 +72,7 @@
 			"role": "JavaScript development"
 		},
 		"location": {
-			"url": "https://sbahns.github.io/game-show-app"
+			"url": "https://github.com/sbahns/game-show-app"
 		},
 		"email": "N/A",
 		"registered": {
@@ -102,7 +102,7 @@
 			"role": "Front End development (jQuery, HTML, CSS/SCSS)"
 		},
 		"location": {
-			"url": "https://sbahns.github.io/photo-gallery-project"
+			"url": "https://github.com/sbahns/photo-gallery-project"
 		},
 		"email": "N/A",
 		"registered": {
@@ -132,7 +132,7 @@
 			"role": "Front End development (HTML, CSS/SCSS)"
 		},
 		"location": {
-			"url": "https://sbahns.github.io/html-form-project"
+			"url": "https://github.com/sbahns/html-form-project"
 		},
 		"email": "N/A",
 		"registered": {
