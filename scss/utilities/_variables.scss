@@ -49,7 +49,7 @@ $colors: (
 @if variable-exists(font-url-google) {
 	@import url($font-url-google);
 }
-$font-url-google: 'https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i|Arbutus+Slab';
+$font-url-google: 'https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i';
 $font-body: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
 $heading-font-family: $font-body;
 

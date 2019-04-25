@@ -586,10 +586,8 @@ p {
   margin: 0;
   margin-bottom: 1rem; }
 
-.project-info {
-  word-break: break-word; }
-  .project-info .name {
-    text-transform: uppercase; }
+.project-info .name {
+  text-transform: uppercase; }
 
 i {
   font-size: 32px;
