@@ -86,7 +86,7 @@ function projectModal(array, index) {
 
 	return `
 		<button title="Close" class="close_modal">
-			X
+			<i class="fas fa-times"></i>
 		</button>
 		<div class="card" data-id="${index}">
 			<div class="project">

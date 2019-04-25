@@ -590,8 +590,8 @@ p {
   text-transform: uppercase; }
 
 i {
-  font-size: 32px;
-  padding: 5px; }
+  font-size: 20px;
+  padding: 5px 0; }
 
 /*--------------------------------------------------
 :: Navigation styles
@@ -776,6 +776,24 @@ header.blue .logo svg {
       fill: #eee; }
     #socialprofiles svg#email .cls-5 {
       fill: #3fabca; }
+    #socialprofiles svg:hover {
+      fill: #057B9C; }
+      #socialprofiles svg:hover#phone .cls-1 {
+        fill: #057B9C; }
+      #socialprofiles svg:hover#phone .cls-2 {
+        fill: #ffffff; }
+      #socialprofiles svg:hover#phone .cls-3 {
+        fill: #057B9C; }
+      #socialprofiles svg:hover#email .cls-1 {
+        fill: #057B9C; }
+      #socialprofiles svg:hover#email .cls-2 {
+        fill: #057B9C; }
+      #socialprofiles svg:hover#email .cls-3 {
+        fill: #ffffff; }
+      #socialprofiles svg:hover#email .cls-4 {
+        fill: #eee; }
+      #socialprofiles svg:hover#email .cls-5 {
+        fill: #057B9C; }
 
 /*--------------------------------------------------
 :: Button styles

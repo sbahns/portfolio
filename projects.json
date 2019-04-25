@@ -12,7 +12,8 @@
 		"role": "Front End development (JavaScript, HTML, CSS/SCSS)"
       },
       "location": {
-        "url": "https://github.com/sbahns/web-app-dashboard"
+				"url": "https://sbahns.github.io/web-app-dashboard",
+        "repo": "https://github.com/sbahns/web-app-dashboard"
       },
       "email": "N/A",
       "registered": {
@@ -42,7 +43,8 @@
 			"role": "Front End development (JavaScript, JSON, HTML, CSS/SCSS)"
 		},
 		"location": {
-			"url": "https://github.com/sbahns/employee-directory"
+			"url": "https://sbahns.github.io/employee-directory",
+			"repo": "https://github.com/sbahns/employee-directory"
 		},
 		"email": "N/A",
 		"registered": {
@@ -72,7 +74,8 @@
 			"role": "JavaScript development"
 		},
 		"location": {
-			"url": "https://github.com/sbahns/game-show-app"
+			"url": "https://sbahns.github.io/game-show-app",
+			"repo": "https://github.com/sbahns/game-show-app"
 		},
 		"email": "N/A",
 		"registered": {
@@ -102,7 +105,8 @@
 			"role": "Front End development (jQuery, HTML, CSS/SCSS)"
 		},
 		"location": {
-			"url": "https://github.com/sbahns/photo-gallery-project"
+			"url": "https://sbahns.github.io/photo-gallery-project",
+			"repo": "https://github.com/sbahns/photo-gallery-project"
 		},
 		"email": "N/A",
 		"registered": {
@@ -132,7 +136,8 @@
 			"role": "Front End development (HTML, CSS/SCSS)"
 		},
 		"location": {
-			"url": "https://github.com/sbahns/html-form-project"
+			"url": "https://sbahns.github.io/html-form-project",
+			"repo": "https://github.com/sbahns/html-form-project"
 		},
 		"email": "N/A",
 		"registered": {
@@ -162,7 +167,8 @@
 		  "role": "UX Design, Front End Development and implementation, QA testing"
 	  },
 	  "location": {
-		"url": "https://tygart.com"
+			"url": "https://tygart.com",
+			"repo": "N/A"
 	  },
 	  "email": "info@tygart.com",
 	  "registered": {
@@ -192,7 +198,8 @@
 		"role": "eCommerce site configuration, theme customization, site support"
 	  },
       "location": {
-        "url": "https://alleghenytreenware.com"
+        "url": "https://alleghenytreenware.com",
+				"repo": "N/A"
       },
       "email": "wvspooners@spooners.com",
       "registered": {
@@ -214,7 +221,8 @@
 	  "type": "website",
 	  "name": {
 		"title": "Red Bone Mining",
-		"client": "Red Bone Mining, LLC"
+		"client": "Red Bone Mining, LLC",
+		"repo": "N/A"
 	  },
 			"info": {
 				"keywords" : "WordPress, custom WordPress theme",
@@ -222,7 +230,8 @@
 		 "role":  "UX design, front end development and design implementation."
 	  },
 	  "location": {
-		"url": "https://redbonemining.com"
+		"url": "https://redbonemining.com",
+		"repo": "N/A"
 	  },
 	  "email": "info@redbonemining.com",
 	  "registered": {
@@ -252,7 +261,8 @@
         	 "role":  "Front end development and design implementation."
       },
       "location": {
-        "url": "https://magazine.northeast.aaa.com"
+        "url": "https://magazine.northeast.aaa.com",
+				"repo": "N/A"
       },
       "email": "",
       "registered": {
@@ -282,7 +292,8 @@
          "role":  "Front end development and design implementation."
       },
       "location": {
-        "url": "https://club.countryliving.com"
+        "url": "https://club.countryliving.com",
+				"repo": "N/A"
       },
       "email": "N/A",
       "registered": {
@@ -312,7 +323,8 @@
          "role": "Front end development and design implementation."
       },
       "location": {
-        "url": "https://newengland.com"
+        "url": "https://newengland.com",
+				"repo": "N/A"
       },
       "email": "N/A",
       "registered": {
@@ -342,7 +354,8 @@
 				 "role": "UX design and Front End development."
 			},
 			"location": {
-				"url": "https://entertainmentcentralpittsburgh.com"
+				"url": "https://entertainmentcentralpittsburgh.com",
+				"repo": "N/A"
 			},
 			"email": "N/A",
 			"registered": {

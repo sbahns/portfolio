@@ -127,5 +127,20 @@ header.blue{
 			.cls-4{fill:#eee;}
 			.cls-5{fill:$blue;}
 		}
+		&:hover {
+			fill: $dark-blue;
+			&#phone {
+				.cls-1{fill:$dark-blue;}
+				.cls-2{fill:$white;}
+				.cls-3{fill:$dark-blue;}
+			}
+			&#email {
+				.cls-1{fill:$dark-blue;}
+				.cls-2{fill:$dark-blue;}
+				.cls-3{fill:$white;}
+				.cls-4{fill:#eee;}
+				.cls-5{fill:$dark-blue;}
+			}
+		}
 	}
 }
